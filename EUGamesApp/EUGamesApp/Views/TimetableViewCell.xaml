@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="EUGamesApp.Views.TimetableViewCell"
+          xmlns:expandable="clr-namespace:Expandable;assembly=ExpandableView"
+          xmlns:local="clr-namespace:EUGamesApp.Views">
+
+    <expandable:ExpandableView x:Name="expandableView" BackgroundColor="#F9FAFS"
+                                                   TouchHandlerView="{x:Reference expandableView}"
+                                                   ExpandAnimationLength="0" VerticalOptions="Fill">
+        <expandable:ExpandableView.PrimaryView>
+            <Grid Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Image x:Name="icon" Source="{Binding icon}" HorizontalOptions="FillAndExpand" Aspect="AspectFit" Grid.Column="0"/>
+                <StackLayout HorizontalOptions="FillAndExpand" Grid.Column="1" HeightRequest="60">
+                    <Label Text="{Binding name}" FontSize="Medium" HorizontalOptions="StartAndExpand"/>
+                    <Label Text="{Binding place.name}" FontSize="Small" HorizontalOptions="StartAndExpand"/>
+                </StackLayout>
+                <Image x:Name="goToMap" Source="goToMap.png" ClassId="{Binding place.xy}" Aspect="AspectFit" HorizontalOptions="FillAndExpand" Grid.Column="2">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image x:Name="arrow" Source="arrow.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" Grid.Column="3"/>
+            </Grid>
+        </expandable:ExpandableView.PrimaryView>
+        <expandable:ExpandableView.SecondaryViewTemplate>
+            <DataTemplate>
+                <StackLayout HeightRequest="{Binding count, FallbackValue=300}" MinimumHeightRequest="{Binding count, FallbackValue=300}" Spacing="0">
+                    <ListView
+                          HasUnevenRows="True"
+                          ItemsSource="{Binding date}"
+                          HorizontalScrollBarVisibility="Never"
+                          HeightRequest="{Binding count, FallbackValue=300}"
+                          MinimumHeightRequest="{Binding count, FallbackValue=300}"
+                          CachingStrategy="RecycleElementAndDataTemplate">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <local:TimetableDateViewCell/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </DataTemplate>
+        </expandable:ExpandableView.SecondaryViewTemplate>
+    </expandable:ExpandableView>
+
+</ViewCell>

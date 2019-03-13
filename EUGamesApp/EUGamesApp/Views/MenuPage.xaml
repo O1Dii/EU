@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             xmlns:viewmodels="clr-namespace:EUGamesApp.ViewModels"
+             x:Class="EUGamesApp.Views.MenuPage"
+             Title="Меню"
+             BackgroundColor="AntiqueWhite">
+    <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0,0,0,0" Margin="0,0,0,0" Grid.Row="0">
+            <Image Source="euLogo.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+    </StackLayout>-->
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="8*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <local:FloatingActionButton Grid.Row="0" Grid.Column="1" ButtonColor="#FF4081"
+                                    HeightRequest="120"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand" Clicked="Event_Clicked"/>
+        <local:FloatingActionButton Grid.Row="0" Grid.Column="2" ButtonColor="#FF4081"
+                                    HeightRequest="120"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand" Clicked="Settings_Clicked"/>
+    </Grid>-->
+    <Grid x:Name="mainGrid" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0, 0, 0, 0" Margin="0, 0, 0, 0">
+        <!--<CarouselView x:Name="MainCarouselView">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.RowSpan="2" Aspect="AspectFill" Source="{Binding Source}" />
+                        <StackLayout Grid.Row="1" BackgroundColor="#80000000" Padding="12">
+                            <Label TextColor="White" Text="{Binding Name, Mode=OneWay}" FontSize="16" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>-->
+
+        <ContentView x:Name="CV" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <CarouselView x:Name="_carousel">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding .}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </StackLayout>
+
+        </ContentView>
+
+
+        <!--<skia:SKCanvasView x:Name="canvasView"
+                           VerticalOptions="FillAndExpand"
+                           HorizontalOptions="FillAndExpand"
+                           PaintSurface="OnCanvasViewPaintSurface" />
+        <skia:SKCanvasView x:Name="canvasReverse"
+                           VerticalOptions="FillAndExpand"
+                           HorizontalOptions="FillAndExpand"
+                           PaintSurface="OnCanvasViewPaintSurfaceOpposite" />
+        <skia:SKCanvasView x:Name="canvasLower"
+                           VerticalOptions="FillAndExpand"
+                           HorizontalOptions="FillAndExpand"
+                           PaintSurface="OnCanvasViewPaintSurfaceOpposite" />-->
+    </Grid>
+
+
+</ContentPage>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="{Binding Title}"
+             BackgroundImage="background.jpg"
+             x:Class="EUGamesApp.Views.MedalsPage">
+    <StackLayout>
+        <Grid Padding="0,0,0,0" Margin="0,0,0,0" ColumnSpacing="0" x:Name="grid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <!--This will make any control in this column of grid take 2/5 of total width-->
+                <ColumnDefinition Width="2*" />
+                <!--This will make any control in this column of grid take 3/5 of total width-->
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+
+            <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0" x:Name="_0">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
+                </ContentView.GestureRecognizers>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="0" Text="Страна"></Label>
+            </ContentView>
+            <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="1" BackgroundColor="Gold" x:Name="_1">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
+                </ContentView.GestureRecognizers>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="1" Text="Золото"></Label>
+            </ContentView>
+            <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="2" BackgroundColor="Silver" x:Name="_2">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
+                </ContentView.GestureRecognizers>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Text="Серебро"></Label>
+            </ContentView>
+            <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="3" BackgroundColor="DarkOrange" x:Name="_3">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
+                </ContentView.GestureRecognizers>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="3" Text="Бронза"></Label>
+            </ContentView>
+            <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="4" x:Name="_4">
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
+                </ContentView.GestureRecognizers>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="4" Text="Всего"></Label>
+            </ContentView>
+
+        </Grid>
+        <ListView x:Name="ItemsListView"
+                ItemsSource="{Binding Items}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                CachingStrategy="RecycleElement">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="0,0,0,0" Margin="0,0,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="2*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40" />
+                            </Grid.RowDefinitions>
+
+                            <Label FontSize="Default" Margin="10, 0, 0, 0" VerticalOptions="Center" Grid.Column="0" Text="{Binding name}"></Label>
+                            <Label FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Text="{Binding gold}"></Label>
+                            <Label FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Text="{Binding silver}"></Label>
+                            <Label FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="3" Text="{Binding bronze}"></Label>
+                            <Label FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="4" Text="{Binding total}"></Label>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
