@@ -1,0 +1,1 @@
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.UWP\EUGamesApp.UWP.csproj;x86

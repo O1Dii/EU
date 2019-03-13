@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:EUGamesApp.Views"
+            x:Class="EUGamesApp.Views.MainPage"
+            x:Name="Tabs"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BarTextColor="Black">
+    <!--<TabbedPage.Children>
+        <views:Tabs x:Name="_1" Icon="Places.png" Appearing="ColorChange_1"/>
+
+        <views:MapPage x:Name="_2" Icon="Map.png" Appearing="ColorChange_2"/>
+
+        <views:MenuPage x:Name="_3" Icon="Menu.png" Appearing="ColorChange_3"/>-->
+
+        <!--<NavigationPage Title="About">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_about.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:AboutPage />
+            </x:Arguments>
+        </NavigationPage>-->
+    <!--</TabbedPage.Children>-->
+</TabbedPage>
+
+<!--<local:NewItemPage Title="NewItemPage"
+                       Icon="Timetable.png" 
+                       xf:BottomBarPageExtensions.TabColor="#FF5252" />
+
+    <local:AboutPage Title="Friends"
+                       Icon="Medals.png"
+                       xf:BottomBarPageExtensions.TabColor="#5D4037"
+                       xf:BottomBarPageExtensions.BadgeCount="6"
+                       xf:BottomBarPageExtensions.BadgeColor="DeepPink" />
+
+    <local:AboutPage Title="Nearby"
+                 Icon="Map.jpg"
+                 xf:BottomBarPageExtensions.TabColor="#7B1FA2" />
+
+    <local:AboutPage Title="Sth1"
+                 Icon="Minsk.png"
+                 xf:BottomBarPageExtensions.TabColor="#FF5252" />
+
+    <local:MenuPage Title="Menu"
+                 Icon="Settings.png"
+                 xf:BottomBarPageExtensions.TabColor="#FF9800" />-->
+
+    <!--<ContentPage Title="Recents"
+                 Icon="xamarin_logo.png"
+                 xf:BottomBarPageExtensions.TabColor="#FF5252"
+                 xf:BottomBarPageExtensions.BadgeCount="2"
+                 xf:BottomBarPageExtensions.BadgeColor="Black" />
+
+    <ContentPage Title="Restaurants"
+                 Icon="xamarin_logo.png"
+                 xf:BottomBarPageExtensions.TabColor="#FF9800" />-->
+    
+<!--<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:EUGamesApp.Views"
+            x:Class="EUGamesApp.Views.MainPage">
+    <TabbedPage.Children>
+        <NavigationPage Title="Browse">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:ItemsPage />
+            </x:Arguments>
+        </NavigationPage>
+        
+        <NavigationPage Title="About">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_about.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:AboutPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>-->

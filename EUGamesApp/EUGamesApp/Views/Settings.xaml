@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             Title="Настройки"
+             x:Class="EUGamesApp.Views.Settings">
+    <!--Title="Настройки"-->
+    <ContentPage.Content>
+        <StackLayout Padding="16, 10, 16, 10">
+            <StackLayout>
+                <Label Text="Отображение" FontSize="30" FontAttributes="Bold"></Label>
+                <StackLayout  Orientation="Horizontal">
+                    <controls:CheckBox x:Name="checkBox" DefaultText="Места ЕИ показаны всегда" CheckedChanged="CheckBox_CheckedChanged" Checked="True"></controls:CheckBox>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="Радиус" FontSize="30" FontAttributes="Bold"></Label>
+            <StackLayout>
+                <!--<Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+                    <Label HorizontalOptions="CenterAndExpand" Grid.Column="0" Text="100м" FontSize="Medium"></Label>
+                    <Label HorizontalOptions="CenterAndExpand" Grid.Column="1" Text="200м" FontSize="Medium"></Label>
+                    <Label HorizontalOptions="CenterAndExpand" Grid.Column="2" Text="300м" FontSize="Medium"></Label>
+                    <Label HorizontalOptions="CenterAndExpand" Grid.Column="3" Text="400м" FontSize="Medium"></Label>
+                    <Label HorizontalOptions="CenterAndExpand" Grid.Column="4" Text="500м" FontSize="Medium"></Label>
+                </Grid>-->
+                <StackLayout VerticalOptions="Center">
+                    <Label x:Name="lblText" Text="Ничего" HorizontalOptions="Start" FontSize="Medium" HorizontalTextAlignment="Center" VerticalOptions="EndAndExpand" >
+                        <Label.Margin>
+                            <OnPlatform x:TypeArguments="Thickness">
+                                <!--<On Platform="iOS" Value="15,0" />-->
+                                <!--<On Platform="Android" Value="10,0" />-->
+                            </OnPlatform>
+                        </Label.Margin>
+                    </Label>
+                    <Slider x:Name="mySlider" Maximum="40" Minimum="0" HorizontalOptions="FillAndExpand" ValueChanged="Slider_ValueChanged" MinimumTrackColor="#F3E5F5" MaximumTrackColor="#E1BEE7">
+                        <Slider.Margin>
+                            <OnPlatform x:TypeArguments="Thickness">
+                                <On Platform="iOS" Value="10,0" />
+                            </OnPlatform>
+                        </Slider.Margin>
+                    </Slider>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

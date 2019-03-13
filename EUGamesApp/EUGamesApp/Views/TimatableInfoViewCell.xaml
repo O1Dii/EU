@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:conv="clr-namespace:SquaredInfinity.Presentation.Converters;assembly=SquaredInfinity.Windows.Data.Converters.DotNet45"
+             x:Class="EUGamesApp.Views.TimatableInfoViewCell">
+    <StackLayout HeightRequest="{Binding count, FallbackValue=100}" MinimumHeightRequest="{Binding count, FallbackValue=100}" VerticalOptions="FillAndExpand">
+        <ListView x:Name="EventsList"
+                  Header="{Binding .}"
+                  HasUnevenRows="True"
+                  ItemsSource="{Binding list}"
+                  HorizontalScrollBarVisibility="Never"
+                  CachingStrategy="RecycleElementAndDataTemplate">
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <Label HeightRequest="60" HorizontalTextAlignment="Center" Text="{Binding header}" FontAttributes="Bold" BackgroundColor="#CCD0D7" />
+                </DataTemplate>
+            </ListView.HeaderTemplate>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout HeightRequest="50" Padding="0, 0, 0, 0" BackgroundColor="#E9E9E9">
+                            <Label Text="{Binding name}"/>
+                            <Label Text="{Binding time}"/>
+                        </StackLayout>                    
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ViewCell>

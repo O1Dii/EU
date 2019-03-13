@@ -1,0 +1,424 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "1660f5ad665e2413a80adc05109e445e52e14356"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "EUGamesApp/1.0.0": {
+        "dependencies": {
+          "ExpandableView": "1.0.3",
+          "NETStandard.Library": "2.0.3",
+          "Plugin.Toast": "2.1.1",
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
+          "XLabs.Forms": "2.0.5782",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xamarin.Essentials": "1.0.1",
+          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Forms-IconTabbedPage": "1.0.4",
+          "Xamarin.Forms.GoogleMaps": "3.0.4",
+          "Xamarin.Forms.Maps": "3.6.0.220655",
+          "Xamarin.Toolkit.Effects": "1.0.0"
+        },
+        "runtime": {
+          "EUGamesApp.dll": {}
+        }
+      },
+      "ExifLib.PCL/1.0.1": {
+        "runtime": {
+          "lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "ExpandableView/1.0.3": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExpandableView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Plugin.Toast/2.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard/Plugin.Toast.Abstractions.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          },
+          "lib/netstandard/Plugin.Toast.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views/1.68.0": {
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.Views.Desktop.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          },
+          "lib/net45/SkiaSharp.Views.Gtk.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          },
+          "lib/net45/SkiaSharp.Views.WPF.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.Views.Forms.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Geolocator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.0.1": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/3.6.0.220655": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms-IconTabbedPage/1.0.4": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Daddoon.IconTabbedPage.dll": {
+            "assemblyVersion": "1.0.0.4",
+            "fileVersion": "1.0.0.4"
+          }
+        }
+      },
+      "Xamarin.Forms.GoogleMaps/3.0.4": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/3.6.0.220655": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Toolkit.Effects/1.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Toolkit.Effects.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "XLabs.Core/2.0.5782": {
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Core.dll": {
+            "assemblyVersion": "2.0.5782.12218",
+            "fileVersion": "2.0.5782.12218"
+          }
+        }
+      },
+      "XLabs.Forms/2.0.5782": {
+        "dependencies": {
+          "XLabs.Core": "2.0.5782",
+          "XLabs.IoC": "2.0.5782",
+          "XLabs.Platform": "2.0.5782",
+          "XLabs.Serialization": "2.0.5782",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8/XLabs.Forms.dll": {
+            "assemblyVersion": "2.0.5782.12218",
+            "fileVersion": "2.0.5782.12218"
+          }
+        }
+      },
+      "XLabs.IoC/2.0.5782": {
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Ioc.dll": {
+            "assemblyVersion": "2.0.5782.12218",
+            "fileVersion": "2.0.5782.12218"
+          }
+        }
+      },
+      "XLabs.Platform/2.0.5782": {
+        "dependencies": {
+          "ExifLib.PCL": "1.0.1",
+          "XLabs.Core": "2.0.5782"
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Platform.dll": {
+            "assemblyVersion": "2.0.5782.12218",
+            "fileVersion": "2.0.5782.12218"
+          }
+        }
+      },
+      "XLabs.Serialization/2.0.5782": {
+        "runtime": {
+          "lib/portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1/XLabs.Serialization.dll": {
+            "assemblyVersion": "2.0.5782.15703",
+            "fileVersion": "2.0.5782.15703"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EUGamesApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExifLib.PCL/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJ7gc1nU7mbHS6tclfDaMbfqKUixYotmqMCcEiva3s478/IXcC7Z+v88OQpGTOYkKfzhP6reibBPmdmogv1m6Q==",
+      "path": "exiflib.pcl/1.0.1",
+      "hashPath": "exiflib.pcl.1.0.1.nupkg.sha512"
+    },
+    "ExpandableView/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VZonOweTkBwsTe2kKPJ4zIvIeB08JapsxJyKINit3obW6y6PXdECz+rRXWVH1c7e/akBBBL30e1zgG4/BmYxUQ==",
+      "path": "expandableview/1.0.3",
+      "hashPath": "expandableview.1.0.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Plugin.Toast/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+1yAOYcZ71Mi7XFVybVbg1vtjLP3R62V+1bowT2WRLP7c9jvtzrHwTqUJNJTKlW1KLnBEdjfDqvpiMSUlExCHw==",
+      "path": "plugin.toast/2.1.1",
+      "hashPath": "plugin.toast.2.1.1.nupkg.sha512"
+    },
+    "SkiaSharp/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8Nh6ws9WGVCddQb509Xl4lCIOu786Oc27t9LxPbuPZU7Olw6jVO2X6iqmHrwY+MZQXQXD4DeK5LU8vfiNwTCg==",
+      "path": "skiasharp/1.68.0",
+      "hashPath": "skiasharp.1.68.0.nupkg.sha512"
+    },
+    "SkiaSharp.Views/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XbC4051gj1Q9XdKkzoUKmHKmGprie9KrOVJ9MYPK4Dpk/FDidPpH6Ga0w0uH4x41GTJgShSRQXsdt566b2NIMA==",
+      "path": "skiasharp.views/1.68.0",
+      "hashPath": "skiasharp.views.1.68.0.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Forms/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-As1LklMPgG+i/y/d5z2EGKOheRHrTVsGCz/2HTvhtIL6GFnXDcApKfxTSNhRNi8OyQJoLgODCpQqjm0tY58j1Q==",
+      "path": "skiasharp.views.forms/1.68.0",
+      "hashPath": "skiasharp.views.forms.1.68.0.nupkg.sha512"
+    },
+    "SuaveControls.FloatingActionButton/2018.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OTad3J+U+ZMFM3lIWnkNhWB3SZgcV7wBEjHk2SBbmdyRJBNI1dEr3DACZIKBBJOlcUxRPUaficxMjVhSN827/g==",
+      "path": "suavecontrols.floatingactionbutton/2018.1.5",
+      "hashPath": "suavecontrols.floatingactionbutton.2018.1.5.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MNcaYxUJvUcoXOa+jgKl/GDw/Mh+wMrxDjW4dre7qrp35LUGTjUBNtZsNjxsWX592ocdyqt1X5hMJB+5OStoYw==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rbWNjW7o14EtZa+yjPLujQg+PLVF6M490ooNx9QK/Z6El+uRA2EFut+lT/OAetWFzdPcv9LCs0YGOTvs9e7taQ==",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
+      "path": "xamarin.essentials/1.0.1",
+      "hashPath": "xamarin.essentials.1.0.1.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.6.0.220655": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ltCTV5Tez9zTbg9f6UunegHPWRzfVHKGHeLOmXeJvNFEPwXrHDwjCcRqMqNISLRjzWxT1MuC9wgKdMoxGdBLqQ==",
+      "path": "xamarin.forms/3.6.0.220655",
+      "hashPath": "xamarin.forms.3.6.0.220655.nupkg.sha512"
+    },
+    "Xamarin.Forms-IconTabbedPage/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s1jjvYIFMVK4sULJCcyCESZcTKzmy2YMaJBSyWNZxAGzrW7dwItTeQeqRxwCokd8ANcBqqjx5dl5IsmVgDCxPw==",
+      "path": "xamarin.forms-icontabbedpage/1.0.4",
+      "hashPath": "xamarin.forms-icontabbedpage.1.0.4.nupkg.sha512"
+    },
+    "Xamarin.Forms.GoogleMaps/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G/IG8/DT1fQkd9/XUCY+3SUw9YOTdk18Z6DWqVddWKWIdVxJof0uCgVCo1EWHGowuvDIc7MKmtWRRDGCtK1P0w==",
+      "path": "xamarin.forms.googlemaps/3.0.4",
+      "hashPath": "xamarin.forms.googlemaps.3.0.4.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/3.6.0.220655": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U+mCCvyLpC039q34jecG3XJhO7XcoJDrMaD9ggPK9YGATDy4msvYPDe0SN51ifwpok0FGDJkv4lZqA1DzGgOUQ==",
+      "path": "xamarin.forms.maps/3.6.0.220655",
+      "hashPath": "xamarin.forms.maps.3.6.0.220655.nupkg.sha512"
+    },
+    "Xamarin.Toolkit.Effects/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BIx6Y49fwlwoD3CKXx+lA5L7QzKBzkbGUCcJO6F7wT8pp+TuTZNZ7huadliDZ1X3eS6dlL9zPjrolFs3U+o43w==",
+      "path": "xamarin.toolkit.effects/1.0.0",
+      "hashPath": "xamarin.toolkit.effects.1.0.0.nupkg.sha512"
+    },
+    "XLabs.Core/2.0.5782": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P9UednVxp04toC0NJBb5Y6Wr6K2n3Jg5S3I3rlwfhSjey92VBB/NsZRQS/UmKj+qEJVYeV7kHVU0ORGa41qJaw==",
+      "path": "xlabs.core/2.0.5782",
+      "hashPath": "xlabs.core.2.0.5782.nupkg.sha512"
+    },
+    "XLabs.Forms/2.0.5782": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Uff8iD3stDf7QamEpR2w+1mbW57VdVIhKUPR9WW2S+/QVVUGkHw7WKzCOF6lr0yZVADyMzJSA37cy9HS9aYZkQ==",
+      "path": "xlabs.forms/2.0.5782",
+      "hashPath": "xlabs.forms.2.0.5782.nupkg.sha512"
+    },
+    "XLabs.IoC/2.0.5782": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JQEKWFHQygnRNdvwEqudm1nfpAMFKDC2mwX1Ok8ykNfGaRRHOApK1TzsYaSJw5ptpQZZLLbh8pabtRiP6+tZ4Q==",
+      "path": "xlabs.ioc/2.0.5782",
+      "hashPath": "xlabs.ioc.2.0.5782.nupkg.sha512"
+    },
+    "XLabs.Platform/2.0.5782": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UL5iO/PogYlZsoRdViiu6bBb95qY0s4EotMUR3alfrzCWeQ0eEqZOZObMdOCwcMtkeFvuqgo0o8/lwdC2wcwOg==",
+      "path": "xlabs.platform/2.0.5782",
+      "hashPath": "xlabs.platform.2.0.5782.nupkg.sha512"
+    },
+    "XLabs.Serialization/2.0.5782": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gW7zI5CJhQNmUZYzjHyNlO8fMViuoOM79L/STraVsJ/P4BtaJ9yDYzBIfnSgE8sVIwipEVmyGcTZIKMq0hsrkw==",
+      "path": "xlabs.serialization/2.0.5782",
+      "hashPath": "xlabs.serialization.2.0.5782.nupkg.sha512"
+    }
+  }
+}
