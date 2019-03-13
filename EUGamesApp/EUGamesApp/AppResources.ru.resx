@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMinsk" xml:space="preserve">
+    <value>О Минске</value>
+  </data>
+  <data name="Albania" xml:space="preserve">
+    <value>Албания</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Andorra" xml:space="preserve">
+    <value>Андорра</value>
+  </data>
+  <data name="AppInfo" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="Armenia" xml:space="preserve">
+    <value>Армения</value>
+  </data>
+  <data name="Austria" xml:space="preserve">
+    <value>Австрия</value>
+  </data>
+  <data name="Azerbaijan" xml:space="preserve">
+    <value>Азербайджан</value>
+  </data>
+  <data name="Belarus" xml:space="preserve">
+    <value>Белоруссия</value>
+  </data>
+  <data name="Belgium" xml:space="preserve">
+    <value>Бельгия</value>
+  </data>
+  <data name="BosniaAndHerzegovina" xml:space="preserve">
+    <value>Венгрия</value>
+  </data>
+  <data name="Bronze" xml:space="preserve">
+    <value>Бронза</value>
+  </data>
+  <data name="Bulgaria" xml:space="preserve">
+    <value>Болгария</value>
+  </data>
+  <data name="Capital" xml:space="preserve">
+    <value>Столица Беларуси</value>
+  </data>
+  <data name="ChizhovkaArena" xml:space="preserve">
+    <value>Чижовка-Арена</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="Croatia" xml:space="preserve">
+    <value>Хорватия</value>
+  </data>
+  <data name="Cyprus" xml:space="preserve">
+    <value>Кипр</value>
+  </data>
+  <data name="CzechRepublic" xml:space="preserve">
+    <value>Чехия</value>
+  </data>
+  <data name="Denmark" xml:space="preserve">
+    <value>Дания</value>
+  </data>
+  <data name="DinamoStadium" xml:space="preserve">
+    <value>Стадион Динамо</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Отображение</value>
+  </data>
+  <data name="Estonia" xml:space="preserve">
+    <value>Эстония</value>
+  </data>
+  <data name="EUPlacesAlwaysShown" xml:space="preserve">
+    <value>Места ЕИ показаны всегда</value>
+  </data>
+  <data name="EuropeanGames" xml:space="preserve">
+    <value>Европейские Игры 2019</value>
+  </data>
+  <data name="FalconClub" xml:space="preserve">
+    <value>Falcon Club</value>
+  </data>
+  <data name="Finland" xml:space="preserve">
+    <value>Финляндия</value>
+  </data>
+  <data name="France" xml:space="preserve">
+    <value>Фрнция</value>
+  </data>
+  <data name="Georgia" xml:space="preserve">
+    <value>Грузия</value>
+  </data>
+  <data name="Germany" xml:space="preserve">
+    <value>Германия</value>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="Greece" xml:space="preserve">
+    <value>Греция</value>
+  </data>
+  <data name="Hungary" xml:space="preserve">
+    <value>Великобритания</value>
+  </data>
+  <data name="Iceland" xml:space="preserve">
+    <value>Исландия</value>
+  </data>
+  <data name="Ireland" xml:space="preserve">
+    <value>Ирландия</value>
+  </data>
+  <data name="Israel" xml:space="preserve">
+    <value>Израиль</value>
+  </data>
+  <data name="Italy" xml:space="preserve">
+    <value>Италия</value>
+  </data>
+  <data name="KnowMore" xml:space="preserve">
+    <value>Узнать Больше</value>
+  </data>
+  <data name="Kosovo" xml:space="preserve">
+    <value>Косово</value>
+  </data>
+  <data name="Latvia" xml:space="preserve">
+    <value>Латвия</value>
+  </data>
+  <data name="Liechtenstein" xml:space="preserve">
+    <value>Лихтенштейн</value>
+  </data>
+  <data name="Lithuania" xml:space="preserve">
+    <value>Литва</value>
+  </data>
+  <data name="Luxembourg" xml:space="preserve">
+    <value>Люксембург</value>
+  </data>
+  <data name="Macedonia" xml:space="preserve">
+    <value>Македония</value>
+  </data>
+  <data name="Malta" xml:space="preserve">
+    <value>Мальта</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="Medals" xml:space="preserve">
+    <value>Медальный зачёт</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="Minsk" xml:space="preserve">
+    <value>Минск</value>
+  </data>
+  <data name="MinskArena" xml:space="preserve">
+    <value>Минск-Арена</value>
+  </data>
+  <data name="MinskInfo" xml:space="preserve">
+    <value>– современный город, который славится монументальной сталинской архитектурой. На широком проспекте Независимости длиной 15 километров расположены музеи, театры и другие достопримечательности. Проспект ведет на огромную площадь Независимости, которую окружают здание Комитета государственной безопасности и костел Святого Симеона и Святой Елены в неороманском стиле, также известный как Красный костел"</value>
+  </data>
+  <data name="Moldova" xml:space="preserve">
+    <value>Молдавия</value>
+  </data>
+  <data name="Monaco" xml:space="preserve">
+    <value>Монако</value>
+  </data>
+  <data name="Montenegro" xml:space="preserve">
+    <value>Черногория</value>
+  </data>
+  <data name="Netherlands" xml:space="preserve">
+    <value>Нидерланды</value>
+  </data>
+  <data name="Norway" xml:space="preserve">
+    <value>Норвегия</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="OlympicSportsComplex" xml:space="preserve">
+    <value>Спорткомплекс Олимпийский</value>
+  </data>
+  <data name="PalovaArena" xml:space="preserve">
+    <value>Palova-arena</value>
+  </data>
+  <data name="Places" xml:space="preserve">
+    <value>Места</value>
+  </data>
+  <data name="Poland" xml:space="preserve">
+    <value>Польша</value>
+  </data>
+  <data name="Portugal" xml:space="preserve">
+    <value>Португалия</value>
+  </data>
+  <data name="Radius" xml:space="preserve">
+    <value>Радиус в минутах ходьбы</value>
+  </data>
+  <data name="Romania" xml:space="preserve">
+    <value>Румыния</value>
+  </data>
+  <data name="Russia" xml:space="preserve">
+    <value>Россия</value>
+  </data>
+  <data name="SanMarino" xml:space="preserve">
+    <value>Сан-Марино</value>
+  </data>
+  <data name="Serbia" xml:space="preserve">
+    <value>Сербия</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ShootingCentre" xml:space="preserve">
+    <value>Стрелковый тир им. Тимошенко</value>
+  </data>
+  <data name="Silver" xml:space="preserve">
+    <value>Серебро</value>
+  </data>
+  <data name="Slovakia" xml:space="preserve">
+    <value>Словакия</value>
+  </data>
+  <data name="Slovenia" xml:space="preserve">
+    <value>Словения</value>
+  </data>
+  <data name="Spain" xml:space="preserve">
+    <value>Испания</value>
+  </data>
+  <data name="SportingClub" xml:space="preserve">
+    <value>Sporting Club</value>
+  </data>
+  <data name="SportsPalace" xml:space="preserve">
+    <value>Дворец Спорта</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Sweden" xml:space="preserve">
+    <value>Швеция</value>
+  </data>
+  <data name="Switzerland" xml:space="preserve">
+    <value>Швейцария</value>
+  </data>
+  <data name="TennisOlympicCentre" xml:space="preserve">
+    <value>РЦОП по теннису</value>
+  </data>
+  <data name="Timetable" xml:space="preserve">
+    <value>Расписание</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Турция</value>
+  </data>
+  <data name="Ukraine" xml:space="preserve">
+    <value>Украина</value>
+  </data>
+  <data name="UnitedKingdom" xml:space="preserve">
+    <value>Босния и Герцеговина</value>
+  </data>
+  <data name="UruchieSportsPalace" xml:space="preserve">
+    <value>Дворец Спорта Уручье</value>
+  </data>
+  <data name="ZaslavlRegattaCourse" xml:space="preserve">
+    <value>РЦОП по гребным видам спорта</value>
+  </data>
+</root>

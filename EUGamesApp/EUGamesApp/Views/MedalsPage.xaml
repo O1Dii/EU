@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:EUGamesApp.Helpers"
              Title="{Binding Title}"
              BackgroundImage="background.jpg"
              x:Class="EUGamesApp.Views.MedalsPage">
@@ -24,31 +25,31 @@
                 <ContentView.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
                 </ContentView.GestureRecognizers>
-                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="0" Text="Страна"></Label>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="0" Text="{i18n:Translate CountryName}"></Label>
             </ContentView>
             <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="1" BackgroundColor="Gold" x:Name="_1">
                 <ContentView.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
                 </ContentView.GestureRecognizers>
-                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="1" Text="Золото"></Label>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="1" Text="{i18n:Translate Gold}"></Label>
             </ContentView>
             <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="2" BackgroundColor="Silver" x:Name="_2">
                 <ContentView.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
                 </ContentView.GestureRecognizers>
-                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Text="Серебро"></Label>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Text="{i18n:Translate Silver}"></Label>
             </ContentView>
             <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="3" BackgroundColor="DarkOrange" x:Name="_3">
                 <ContentView.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
                 </ContentView.GestureRecognizers>
-                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="3" Text="Бронза"></Label>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="3" Text="{i18n:Translate Bronze}"></Label>
             </ContentView>
             <ContentView HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="4" x:Name="_4">
                 <ContentView.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="onGridPressed"/>
                 </ContentView.GestureRecognizers>
-                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="4" Text="Всего"></Label>
+                <Label FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="4" Text="{i18n:Translate Total}"></Label>
             </ContentView>
 
         </Grid>
@@ -56,7 +57,7 @@
                 ItemsSource="{Binding Items}"
                 VerticalOptions="FillAndExpand"
                 HasUnevenRows="true"
-                CachingStrategy="RecycleElement">
+                CachingStrategy="RecycleElementAndDataTemplate">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

@@ -10,6 +10,8 @@ D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\andr
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\mscorlib.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Plugin.Geolocator.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Plugin.Multilingual.Abstractions.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Plugin.Multilingual.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Plugin.Toast.Abstractions.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Plugin.Toast.dll
@@ -78,6 +80,7 @@ D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\andr
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Web.Services.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Runtime.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Globalization.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Resources.ResourceManager.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Diagnostics.Tools.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Mono.Security.dll
@@ -93,9 +96,10 @@ D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\andr
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Text.Encoding.dll
-D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Globalization.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.ComponentModel.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Text.RegularExpressions.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.Primitives.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.Xml.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\ar\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\ru\EUGamesApp.resources.dll

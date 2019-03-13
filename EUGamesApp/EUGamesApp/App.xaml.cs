@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using EUGamesApp.Views;
+using Plugin.Multilingual;
+using System.Globalization;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace EUGamesApp
@@ -15,7 +17,10 @@ namespace EUGamesApp
         public App()
         {
             InitializeComponent();
-
+            if (CrossMultilingual.Current.DeviceCultureInfo.Name == "ru-RU") {
+                CrossMultilingual.Current.CurrentCultureInfo = new CultureInfo("ru");
+            }
+            AppResources.Culture = CrossMultilingual.Current.CurrentCultureInfo;
             mainPage = MainPage = new MainPage();
         }
 

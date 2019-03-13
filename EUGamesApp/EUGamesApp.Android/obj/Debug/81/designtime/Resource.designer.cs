@@ -9940,8 +9940,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F010003
 			public const int Acrobatics = 2130771971;
 			
-			// aapt resource value: 0x7F010487
-			public const int ad16 = 2130773127;
+			// aapt resource value: 0x7F010488
+			public const int ad16 = 2130773128;
 			
 			// aapt resource value: 0x7F010004
 			public const int Aerobics = 2130771972;
@@ -9949,8 +9949,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F010005
 			public const int Archery = 2130771973;
 			
-			// aapt resource value: 0x7F010058
-			public const int arrow = 2130772056;
+			// aapt resource value: 0x7F010059
+			public const int arrow = 2130772057;
 			
 			// aapt resource value: 0x7F010006
 			public const int Atletics = 2130771974;
@@ -9976,8 +9976,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F010011
 			public const int Boxing = 2130771985;
 			
-			// aapt resource value: 0x7F010488
-			public const int calendar_bg_selector = 2130773128;
+			// aapt resource value: 0x7F010489
+			public const int calendar_bg_selector = 2130773129;
 			
 			// aapt resource value: 0x1
 			public const int cast_abc_scrubber_control_off_mtrl_alpha = 1;
@@ -10141,71 +10141,74 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
-			// aapt resource value: 0x7F010376
-			public const int common_full_open_on_phone = 2130772854;
-			
-			// aapt resource value: 0x7F010362
-			public const int common_google_signin_btn_icon_dark = 2130772834;
-			
-			// aapt resource value: 0x7F010363
-			public const int common_google_signin_btn_icon_dark_focused = 2130772835;
-			
-			// aapt resource value: 0x7F010364
-			public const int common_google_signin_btn_icon_dark_normal = 2130772836;
+			// aapt resource value: 0x7F010012
+			public const int Ceremony = 2130771986;
 			
 			// aapt resource value: 0x7F010377
-			public const int common_google_signin_btn_icon_dark_normal_background = 2130772855;
+			public const int common_full_open_on_phone = 2130772855;
+			
+			// aapt resource value: 0x7F010363
+			public const int common_google_signin_btn_icon_dark = 2130772835;
+			
+			// aapt resource value: 0x7F010364
+			public const int common_google_signin_btn_icon_dark_focused = 2130772836;
 			
 			// aapt resource value: 0x7F010365
-			public const int common_google_signin_btn_icon_disabled = 2130772837;
-			
-			// aapt resource value: 0x7F010366
-			public const int common_google_signin_btn_icon_light = 2130772838;
-			
-			// aapt resource value: 0x7F010367
-			public const int common_google_signin_btn_icon_light_focused = 2130772839;
-			
-			// aapt resource value: 0x7F010368
-			public const int common_google_signin_btn_icon_light_normal = 2130772840;
+			public const int common_google_signin_btn_icon_dark_normal = 2130772837;
 			
 			// aapt resource value: 0x7F010378
-			public const int common_google_signin_btn_icon_light_normal_background = 2130772856;
+			public const int common_google_signin_btn_icon_dark_normal_background = 2130772856;
+			
+			// aapt resource value: 0x7F010366
+			public const int common_google_signin_btn_icon_disabled = 2130772838;
+			
+			// aapt resource value: 0x7F010367
+			public const int common_google_signin_btn_icon_light = 2130772839;
+			
+			// aapt resource value: 0x7F010368
+			public const int common_google_signin_btn_icon_light_focused = 2130772840;
 			
 			// aapt resource value: 0x7F010369
-			public const int common_google_signin_btn_text_dark = 2130772841;
-			
-			// aapt resource value: 0x7F010370
-			public const int common_google_signin_btn_text_dark_focused = 2130772848;
-			
-			// aapt resource value: 0x7F010371
-			public const int common_google_signin_btn_text_dark_normal = 2130772849;
+			public const int common_google_signin_btn_icon_light_normal = 2130772841;
 			
 			// aapt resource value: 0x7F010379
-			public const int common_google_signin_btn_text_dark_normal_background = 2130772857;
+			public const int common_google_signin_btn_icon_light_normal_background = 2130772857;
+			
+			// aapt resource value: 0x7F010370
+			public const int common_google_signin_btn_text_dark = 2130772848;
+			
+			// aapt resource value: 0x7F010371
+			public const int common_google_signin_btn_text_dark_focused = 2130772849;
 			
 			// aapt resource value: 0x7F010372
-			public const int common_google_signin_btn_text_disabled = 2130772850;
-			
-			// aapt resource value: 0x7F010373
-			public const int common_google_signin_btn_text_light = 2130772851;
-			
-			// aapt resource value: 0x7F010374
-			public const int common_google_signin_btn_text_light_focused = 2130772852;
-			
-			// aapt resource value: 0x7F010375
-			public const int common_google_signin_btn_text_light_normal = 2130772853;
+			public const int common_google_signin_btn_text_dark_normal = 2130772850;
 			
 			// aapt resource value: 0x7F010380
-			public const int common_google_signin_btn_text_light_normal_background = 2130772864;
+			public const int common_google_signin_btn_text_dark_normal_background = 2130772864;
 			
-			// aapt resource value: 0x7F010012
-			public const int culture = 2130771986;
+			// aapt resource value: 0x7F010373
+			public const int common_google_signin_btn_text_disabled = 2130772851;
+			
+			// aapt resource value: 0x7F010374
+			public const int common_google_signin_btn_text_light = 2130772852;
+			
+			// aapt resource value: 0x7F010375
+			public const int common_google_signin_btn_text_light_focused = 2130772853;
+			
+			// aapt resource value: 0x7F010376
+			public const int common_google_signin_btn_text_light_normal = 2130772854;
+			
+			// aapt resource value: 0x7F010381
+			public const int common_google_signin_btn_text_light_normal_background = 2130772865;
 			
 			// aapt resource value: 0x7F010013
-			public const int CyclingRoad = 2130771987;
+			public const int culture = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int CyclingTrack = 2130771988;
+			public const int CyclingRoad = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int CyclingTrack = 2130771989;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -10225,35 +10228,35 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010015
-			public const int euLogo = 2130771989;
-			
 			// aapt resource value: 0x7F010016
-			public const int eventPlace = 2130771990;
-			
-			// aapt resource value: 0x7F010486
-			public const int fct_ic_clear_icon = 2130773126;
+			public const int euLogo = 2130771990;
 			
 			// aapt resource value: 0x7F010017
-			public const int Fifth = 2130771991;
+			public const int eventPlace = 2130771991;
+			
+			// aapt resource value: 0x7F010487
+			public const int fct_ic_clear_icon = 2130773127;
 			
 			// aapt resource value: 0x7F010018
-			public const int First = 2130771992;
+			public const int Fifth = 2130771992;
 			
 			// aapt resource value: 0x7F010019
-			public const int Fourth = 2130771993;
-			
-			// aapt resource value: 0x7F010381
-			public const int googleg_disabled_color_18 = 2130772865;
-			
-			// aapt resource value: 0x7F010382
-			public const int googleg_standard_color_18 = 2130772866;
+			public const int First = 2130771993;
 			
 			// aapt resource value: 0x7F010020
-			public const int goToMap = 2130772000;
+			public const int Fourth = 2130772000;
+			
+			// aapt resource value: 0x7F010382
+			public const int googleg_disabled_color_18 = 2130772866;
+			
+			// aapt resource value: 0x7F010383
+			public const int googleg_standard_color_18 = 2130772867;
 			
 			// aapt resource value: 0x7F010021
-			public const int Gymnastics = 2130772001;
+			public const int goToMap = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int Gymnastics = 2130772002;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -10798,50 +10801,50 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010022
-			public const int Judo = 2130772002;
-			
 			// aapt resource value: 0x7F010023
-			public const int Karate = 2130772003;
+			public const int Judo = 2130772003;
 			
 			// aapt resource value: 0x7F010024
-			public const int mainPlaces = 2130772004;
+			public const int Karate = 2130772004;
 			
 			// aapt resource value: 0x7F010025
-			public const int Map = 2130772005;
+			public const int mainPlaces = 2130772005;
 			
 			// aapt resource value: 0x7F010026
-			public const int medals_background = 2130772006;
+			public const int Map = 2130772006;
 			
 			// aapt resource value: 0x7F010027
-			public const int meme = 2130772007;
+			public const int medals_background = 2130772007;
 			
 			// aapt resource value: 0x7F010028
-			public const int Menu = 2130772008;
+			public const int meme = 2130772008;
 			
 			// aapt resource value: 0x7F010029
-			public const int Minsk = 2130772009;
+			public const int Menu = 2130772009;
 			
 			// aapt resource value: 0x7F010030
-			public const int Minsk1 = 2130772016;
+			public const int Minsk = 2130772016;
 			
 			// aapt resource value: 0x7F010031
-			public const int Minsk2 = 2130772017;
+			public const int Minsk1 = 2130772017;
 			
 			// aapt resource value: 0x7F010032
-			public const int Minsk3 = 2130772018;
+			public const int Minsk2 = 2130772018;
 			
 			// aapt resource value: 0x7F010033
-			public const int Minsk4 = 2130772019;
+			public const int Minsk3 = 2130772019;
 			
 			// aapt resource value: 0x7F010034
-			public const int minsk_background = 2130772020;
+			public const int Minsk4 = 2130772020;
 			
 			// aapt resource value: 0x7F010035
-			public const int monument = 2130772021;
+			public const int minsk_background = 2130772021;
 			
 			// aapt resource value: 0x7F010036
-			public const int monument_background = 2130772022;
+			public const int monument = 2130772022;
+			
+			// aapt resource value: 0x7F010037
+			public const int monument_background = 2130772023;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -10942,11 +10945,11 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010037
-			public const int park = 2130772023;
-			
 			// aapt resource value: 0x7F010038
-			public const int Places = 2130772024;
+			public const int park = 2130772024;
+			
+			// aapt resource value: 0x7F010039
+			public const int Places = 2130772025;
 			
 			// aapt resource value: 0x1
 			public const int places_ic_clear = 1;
@@ -11083,53 +11086,53 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x1
 			public const int quantum_ic_volume_up_white_36 = 1;
 			
-			// aapt resource value: 0x7F010039
-			public const int Rowing = 2130772025;
-			
 			// aapt resource value: 0x7F010040
-			public const int Sambo = 2130772032;
+			public const int Rowing = 2130772032;
 			
 			// aapt resource value: 0x7F010041
-			public const int Second = 2130772033;
+			public const int Sambo = 2130772033;
 			
 			// aapt resource value: 0x7F010042
-			public const int Settings = 2130772034;
+			public const int Second = 2130772034;
 			
 			// aapt resource value: 0x7F010043
-			public const int settings_background = 2130772035;
+			public const int Settings = 2130772035;
 			
 			// aapt resource value: 0x7F010044
-			public const int Shooting = 2130772036;
+			public const int settings_background = 2130772036;
 			
 			// aapt resource value: 0x7F010045
-			public const int ShootingStand = 2130772037;
+			public const int Shooting = 2130772037;
 			
 			// aapt resource value: 0x7F010046
-			public const int Sixth = 2130772038;
+			public const int ShootingStand = 2130772038;
 			
 			// aapt resource value: 0x7F010047
-			public const int splash = 2130772039;
+			public const int Sixth = 2130772039;
 			
 			// aapt resource value: 0x7F010048
-			public const int splash_screen = 2130772040;
+			public const int splash = 2130772040;
 			
 			// aapt resource value: 0x7F010049
-			public const int SportsGymnastics = 2130772041;
+			public const int splash_screen = 2130772041;
 			
 			// aapt resource value: 0x7F010050
-			public const int TableTennis = 2130772048;
+			public const int SportsGymnastics = 2130772048;
 			
 			// aapt resource value: 0x7F010051
-			public const int Team = 2130772049;
+			public const int TableTennis = 2130772049;
 			
 			// aapt resource value: 0x7F010052
-			public const int Team1 = 2130772050;
+			public const int Team = 2130772050;
 			
 			// aapt resource value: 0x7F010053
-			public const int Third = 2130772051;
+			public const int Team1 = 2130772051;
 			
 			// aapt resource value: 0x7F010054
-			public const int timetable_background = 2130772052;
+			public const int Third = 2130772052;
+			
+			// aapt resource value: 0x7F010055
+			public const int timetable_background = 2130772053;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -11137,14 +11140,14 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010055
-			public const int Trampoline = 2130772053;
-			
 			// aapt resource value: 0x7F010056
-			public const int useless_background = 2130772054;
+			public const int Trampoline = 2130772054;
 			
 			// aapt resource value: 0x7F010057
-			public const int Wrestling = 2130772055;
+			public const int useless_background = 2130772055;
+			
+			// aapt resource value: 0x7F010058
+			public const int Wrestling = 2130772056;
 			
 			static Drawable()
 			{

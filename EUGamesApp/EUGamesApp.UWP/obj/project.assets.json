@@ -234,6 +234,17 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        }
+      },
       "Plugin.Toast/2.1.1": {
         "type": "package",
         "compile": {
@@ -637,6 +648,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -891,6 +903,17 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -1395,6 +1418,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -1649,6 +1673,17 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -2154,6 +2189,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -2407,6 +2443,17 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -2726,6 +2773,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -2980,6 +3028,17 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -3484,6 +3543,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -3738,6 +3798,17 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -4243,6 +4314,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -4497,6 +4569,17 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -5001,6 +5084,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -5255,6 +5339,17 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -5760,6 +5855,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ExpandableView": "1.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -6315,6 +6411,66 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Plugin.Multilingual/1.0.2": {
+      "sha512": "xf74OLz0KRWKTkFbFGnefL9ISqNjxbGg4Zgp4W3Uda6QiUMFe/WvBfYPcox/m8d3yiza9t9BryCyzpNU8ivk/g==",
+      "type": "package",
+      "path": "plugin.multilingual/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net45/Helpers/TranslateExtension.txt.pp",
+        "content/netstandard1.0/Helpers/TranslateExtension.txt.pp",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Multilingual.XML",
+        "lib/MonoAndroid10/Plugin.Multilingual.dll",
+        "lib/MonoAndroid10/Plugin.Multilingual.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Multilingual.pdb",
+        "lib/UAP10/Plugin.Multilingual.Abstractions.dll",
+        "lib/UAP10/Plugin.Multilingual.Abstractions.pdb",
+        "lib/UAP10/Plugin.Multilingual.Abstractions.xml",
+        "lib/UAP10/Plugin.Multilingual.XML",
+        "lib/UAP10/Plugin.Multilingual.dll",
+        "lib/UAP10/Plugin.Multilingual.pdb",
+        "lib/UAP10/Plugin.Multilingual.pri",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.dll",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.XML",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.dll",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.dll.mdb",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Multilingual.dll",
+        "lib/XamarinTVOS/Plugin.Multilingual.pdb",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.dll",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.dll.mdb",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.pdb",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.xml",
+        "lib/XamarinWatchOS/Plugin.Multilingual.dll",
+        "lib/XamarinWatchOS/Plugin.Multilingual.pdb",
+        "lib/net45/Plugin.Multilingual.Abstractions.dll",
+        "lib/net45/Plugin.Multilingual.Abstractions.pdb",
+        "lib/net45/Plugin.Multilingual.Abstractions.xml",
+        "lib/net45/Plugin.Multilingual.dll",
+        "lib/net45/Plugin.Multilingual.pdb",
+        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Multilingual.deps.json",
+        "lib/netstandard1.0/Plugin.Multilingual.dll",
+        "lib/netstandard1.0/Plugin.Multilingual.xml",
+        "plugin.multilingual.1.0.2.nupkg.sha512",
+        "plugin.multilingual.nuspec"
       ]
     },
     "Plugin.Toast/2.1.1": {
@@ -10189,6 +10345,7 @@
       "EUGamesApp >= 1.0.0",
       "ExpandableView >= 1.0.3",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.9",
+      "Plugin.Multilingual >= 1.0.2",
       "SkiaSharp >= 1.68.0",
       "SkiaSharp.Views >= 1.68.0",
       "SkiaSharp.Views.Forms >= 1.68.0",
@@ -10251,6 +10408,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.9, )"
+          },
+          "Plugin.Multilingual": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           },
           "SkiaSharp": {
             "target": "Package",

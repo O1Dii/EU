@@ -23,11 +23,11 @@ namespace EUGamesApp.Views
             mySlider.Value = Setting.radius;
             if (mySlider.Value == 0)
             {
-                lblText.Text = "Ничего";
+                lblText.Text = AppResources.Nothing;
             }
             else if (mySlider.Value == 40)
             {
-                lblText.Text = "Все";
+                lblText.Text = AppResources.All;
             }
             else
             {
@@ -43,11 +43,11 @@ namespace EUGamesApp.Views
             mySlider.Value = newStep * 10;
             if (mySlider.Value == 0)
             {
-                lblText.Text = "Ничего";
+                lblText.Text = AppResources.Nothing;
             }
             else if(mySlider.Value == 40)
             {
-                lblText.Text = "Все";
+                lblText.Text = AppResources.All;
             }
             else {
                 lblText.Text = mySlider.Value.ToString();
