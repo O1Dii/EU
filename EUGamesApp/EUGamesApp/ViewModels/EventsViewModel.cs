@@ -47,22 +47,23 @@ namespace EUGamesApp.ViewModels
                 "SportsGymnastics.png",
                 "TableTennis.png",
                 "Trampoline.png",
-                "Wrestling.png"
+                "Wrestling.png",
+                "Ceremony.png"
             };
             places = new List<Place> {
-                new Place(53.917261, 27.584840, "Спорткомплекс Олимпийский", "улица Калиновского 111", 0),
-                new Place(53.8951825, 27.558098, "Национальный Олимпийский стадион Динамо", "улица Кирова 8", 0),
-                new Place(53.9107421, 27.54755, "Palova-arena", "проспект Победителей 4", 0),
-                new Place(53.9507453, 27.706051, "Дворец Спорта Уручье", "проспект Независимости 196", 0),
-                new Place(53.9326612, 27.5104683, "Falcon Club Арена", "проспект Победителей 20", 0),
-                new Place(53.936161, 27.4819988, "Минск-Арена", "проспект Победителей 111", 0),
-                new Place(53.8445557, 27.6287836, "Чижовка-Арена", "улица Ташкентская 19", 0),
-                new Place(53.936161, 27.4819988, "Дворец спорта", "проспект Победителей 4", 0),
-                new Place(53.9023858, 27.561511, "Минск", "", 0),
-                new Place(53.9944815, 27.3139787, "РЦОП по гребным видам спорта", "улица Гонолес 1", 0),
-                new Place(53.924171, 27.518856, "РЦОП по теннису", "проспект Победителей 63", 0),
-                new Place(53.956108, 27.716315, "Стрелковый тир им.Тимошенко", "проспект Независимости 195", 0),
-                new Place(53.954756, 27.712518, "Sporting Club", "", 0)
+                new Place(53.917261, 27.584840, AppResources.OlympicSportsComplex, "", 0), //улица Калиновского 111
+                new Place(53.8951825, 27.558098, AppResources.DinamoStadium, "", 0), //улица Кирова 8
+                new Place(53.9107421, 27.54755, AppResources.PalovaArena, "", 0), //проспект Победителей 4
+                new Place(53.9507453, 27.706051, AppResources.UruchieSportsPalace, "", 0), //проспект Независимости 196
+                new Place(53.9326612, 27.5104683, AppResources.FalconClub, "", 0), //проспект Победителей 20
+                new Place(53.936161, 27.4819988, AppResources.MinskArena, "", 0), //проспект Победителей 111
+                new Place(53.8445557, 27.6287836, AppResources.ChizhovkaArena, "", 0), //улица Ташкентская 19
+                new Place(53.936161, 27.4819988, AppResources.SportsPalace, "", 0), //проспект Победителей 4
+                new Place(53.9023858, 27.561511, AppResources.Minsk, "", 0),
+                new Place(53.9944815, 27.3139787, AppResources.ZaslavlRegattaCourse, "", 0), //улица Гонолес 1
+                new Place(53.924171, 27.518856, AppResources.TennisOlympicCentre, "", 0), //проспект Победителей 63
+                new Place(53.956108, 27.716315, AppResources.ShootingCentre, "", 0), //проспект Независимости 195
+                new Place(53.954756, 27.712518, AppResources.SportingClub, "", 0)
             };
 
             tempPlaces = new List<Place>
@@ -138,8 +139,8 @@ namespace EUGamesApp.ViewModels
             };
 
             Items = new ObservableCollection<Event>() {
-                new Event("", eveNames[0], places[1], date),
-                new Event("", eveNames[1], places[1], date),
+                new Event(icons[21], eveNames[0], places[1], date),
+                new Event(icons[21], eveNames[1], places[1], date),
                 new Event(icons[0], eveNames[2], places[5], date),
                 new Event(icons[1], eveNames[3], places[5], date),
                 new Event(icons[4], eveNames[4], places[4], date),

@@ -18,6 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("EUGamesApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EUGamesApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("ru-RU")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

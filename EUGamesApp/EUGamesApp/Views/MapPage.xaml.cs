@@ -88,7 +88,7 @@
                 return true;
             });
 
-            this.Title = "Карта";
+            this.Title = AppResources.Map;
 
             GoogleMap.MyLocationButtonClicked += (sender, e) =>
             {

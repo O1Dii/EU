@@ -23,7 +23,7 @@ namespace EUGamesApp.ViewModels
         {
             medals = new Medals();
             Items = medals.Countries;
-            Title = "Медальный зачёт";
+            Title = AppResources.Medals;
         }
 
         public void sort(int flag)

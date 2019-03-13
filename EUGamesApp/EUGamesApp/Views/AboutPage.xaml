@@ -4,6 +4,7 @@
              x:Class="EUGamesApp.Views.AboutPage"
              xmlns:vm="clr-namespace:EUGamesApp.ViewModels"
              BackgroundImage="background.jpg"
+             xmlns:i18n="clr-namespace:EUGamesApp.Helpers"
              Title="{Binding Title}"
              NavigationPage.HasNavigationBar="False">
 
@@ -59,7 +60,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Минск" FontAttributes="Bold" FontSize="30" />
+                                <Span Text="{i18n:Translate Minsk}" FontAttributes="Bold" FontSize="30" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
@@ -68,7 +69,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Столица Беларуси" ForegroundColor="{StaticResource LightTextColor}" />
+                                <Span Text="{i18n:Translate Capital}" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
@@ -77,15 +78,15 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Столица Беларуси Минск" FontAttributes="Bold" />
+                                <Span Text="{i18n:Translate Capital}" FontAttributes="Bold" />
                                 <Span Text=" " />
-                                <Span Text="– современный город, который славится монументальной сталинской архитектурой. На широком проспекте Независимости длиной 15 километров расположены музеи, театры и другие достопримечательности. Проспект ведет на огромную площадь Независимости, которую окружают здание Комитета государственной безопасности и костел Святого Симеона и Святой Елены в неороманском стиле, также известный как Красный костел" />
+                                <Span Text="{i18n:Translate MinskInfo}" />
                                 <Span Text="." />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Button Margin="0,10,0,0" Text="Узнать больше"
+                <Button Margin="0,10,0,0" Text="{i18n:Translate KnowMore}"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />

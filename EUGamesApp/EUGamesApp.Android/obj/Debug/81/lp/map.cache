@@ -4,6 +4,8 @@ ExpandableView
 FormsViewGroup
 Plugin.CurrentActivity
 Plugin.Geolocator
+Plugin.Multilingual.Abstractions
+Plugin.Multilingual
 Plugin.Permissions
 Plugin.Toast.Abstractions
 Plugin.Toast

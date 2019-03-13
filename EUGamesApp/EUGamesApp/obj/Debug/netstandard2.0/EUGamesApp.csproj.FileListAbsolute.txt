@@ -22,6 +22,14 @@ D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\Views\TimetableViewCell.xaml.g.cs
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\Views\TimetableDateViewCell.xaml.g.cs
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\Views\TimatableInfoViewCell.xaml.g.cs
-D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.csprojAssemblyReference.cache
-D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\Views\AppInfo.xaml.g.cs
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.csproj.GenerateResource.cache
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.AppResources.resources
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\bin\Debug\netstandard2.0\ar\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.AppResources.ar.resources
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\ar\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\bin\Debug\netstandard2.0\ru\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.AppResources.ru.resources
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\ru\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.csprojAssemblyReference.cache

@@ -90,7 +90,7 @@ namespace EUGamesApp.Views
             Label eventName = new Label()
             {
                 Margin = new Thickness(10, 0, 10, 0),
-                Text = "Европейские Игры 2019",
+                Text = AppResources.EuropeanGames,
                 FontSize = 25,
                 TextColor = Color.AntiqueWhite,
                 FontFamily = Device.RuntimePlatform == Device.Android ? "Montserrat-SemiBold.ttf#Montserrat-SemiBold" :
@@ -197,13 +197,13 @@ namespace EUGamesApp.Views
 
             //centerGrid.ColumnDefinitions.Add(new ColumnDefinition() { Width = Screen.ScreenWidth - 10 });
             page = new TimetablePage((MainPage)App.getMainPage());
-            centerGrid.Children.Add(new AnimatedButton("Расписание", "", "", "timetable_background.jpg", async () => {
+            centerGrid.Children.Add(new AnimatedButton(AppResources.Timetable, "", "", "timetable_background.jpg", async () => {
                 await Navigation.PushModalAsync(new NavigationPage(page));
             }), 0, 0);
-            centerGrid.Children.Add(new AnimatedButton("Медальный зачёт", "", "", "medals_background.jpg", async () => {
+            centerGrid.Children.Add(new AnimatedButton(AppResources.Medals, "", "", "medals_background.jpg", async () => {
                 await Navigation.PushModalAsync(new NavigationPage(new MedalsPage()));
             }), 0, 1);
-            centerGrid.Children.Add(new AnimatedButton("О Минске", "", "", "minsk_background.jpg", async () => {
+            centerGrid.Children.Add(new AnimatedButton(AppResources.AboutMinsk, "", "", "minsk_background.jpg", async () => {
                 var masterPage = this.Parent as MainPage;
                 masterPage.ChangeTab(0);
             }), 0, 2);
@@ -211,10 +211,10 @@ namespace EUGamesApp.Views
 
             lowerGrid.ColumnDefinitions.Add(new ColumnDefinition() { });
             lowerGrid.ColumnDefinitions.Add(new ColumnDefinition() { });
-            lowerGrid.Children.Add(new AnimatedButton("О приложении", "", "", "about_background.png", async () => {
+            lowerGrid.Children.Add(new AnimatedButton(AppResources.AppInfo, "", "", "about_background.png", async () => {
                 await Navigation.PushModalAsync(new NavigationPage(new AppInfo()));
             }), 0, 0);
-            lowerGrid.Children.Add(new AnimatedButton("Настройки", "", "", "settings_background.png", async () => {
+            lowerGrid.Children.Add(new AnimatedButton(AppResources.Settings, "", "", "settings_background.png", async () => {
                 await Navigation.PushModalAsync(new NavigationPage(new Settings()));
             }), 1, 0);
 

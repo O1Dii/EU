@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "1660f5ad665e2413a80adc05109e445e52e14356"
+    "signature": "48e5c95a106717f5cc7a9df0b8f37323aa59f086"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "ExpandableView": "1.0.3",
           "NETStandard.Library": "2.0.3",
+          "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
           "SkiaSharp.Views": "1.68.0",
@@ -27,6 +28,14 @@
         },
         "runtime": {
           "EUGamesApp.dll": {}
+        },
+        "resources": {
+          "ar/EUGamesApp.resources.dll": {
+            "locale": "ar"
+          },
+          "ru/EUGamesApp.resources.dll": {
+            "locale": "ru"
+          }
         }
       },
       "ExifLib.PCL/1.0.1": {
@@ -52,6 +61,21 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Plugin.Multilingual/1.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Multilingual.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.Multilingual.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Plugin.Toast/2.1.1": {
@@ -294,6 +318,13 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "Plugin.Multilingual/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xf74OLz0KRWKTkFbFGnefL9ISqNjxbGg4Zgp4W3Uda6QiUMFe/WvBfYPcox/m8d3yiza9t9BryCyzpNU8ivk/g==",
+      "path": "plugin.multilingual/1.0.2",
+      "hashPath": "plugin.multilingual.1.0.2.nupkg.sha512"
+    },
     "Plugin.Toast/2.1.1": {
       "type": "package",
       "serviceable": true,
@@ -332,7 +363,7 @@
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MNcaYxUJvUcoXOa+jgKl/GDw/Mh+wMrxDjW4dre7qrp35LUGTjUBNtZsNjxsWX592ocdyqt1X5hMJB+5OStoYw==",
+      "sha512": "sha512-nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },

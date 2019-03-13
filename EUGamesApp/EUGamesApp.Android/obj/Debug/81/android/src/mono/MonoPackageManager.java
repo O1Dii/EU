@@ -113,6 +113,8 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.dll",
+		"Plugin.Multilingual.Abstractions.dll",
+		"Plugin.Multilingual.dll",
 		"Plugin.Permissions.dll",
 		"Plugin.Toast.Abstractions.dll",
 		"Plugin.Toast.dll",

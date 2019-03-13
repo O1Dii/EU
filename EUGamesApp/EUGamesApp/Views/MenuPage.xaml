@@ -5,7 +5,8 @@
              xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
              xmlns:viewmodels="clr-namespace:EUGamesApp.ViewModels"
              x:Class="EUGamesApp.Views.MenuPage"
-             Title="Меню"
+             xmlns:i18n="clr-namespace:EUGamesApp.Helpers"
+             Title="{i18n:Translate Menu}"
              BackgroundColor="AntiqueWhite">
     <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0,0,0,0" Margin="0,0,0,0" Grid.Row="0">
             <Image Source="euLogo.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
