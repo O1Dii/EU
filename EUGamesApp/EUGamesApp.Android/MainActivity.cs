@@ -28,9 +28,12 @@ namespace EUGamesApp.Droid
             Screen.ScreenHeight = (int)(Resources.DisplayMetrics.HeightPixels / Resources.DisplayMetrics.Density);
             Screen.ScreenWidth = (int)(Resources.DisplayMetrics.WidthPixels / Resources.DisplayMetrics.Density);
 
-            Screen.TabSizePixels = 200;
-            Screen.TabSize = (int)(Screen.TabSizePixels / Resources.DisplayMetrics.Density);
+            //Screen.TabSizePixels = 200;
+            //Screen.TabSize = (int)(Screen.TabSizePixels / Resources.DisplayMetrics.Density);
             Screen.Density = (float)Resources.DisplayMetrics.Density;
+
+            Screen.TabSize = (int)(Screen.ScreenHeight * 0.1);
+            Screen.TabSizePixels = (int)(Screen.TabSizePixels * Screen.Density);
 
 
             //var x = this.FragmentManager.FindFragmentById(Resource.Id.sliding_tabs);

@@ -2,7 +2,6 @@
 <ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
           x:Class="EUGamesApp.Views.TimetableDateViewCell"
-          xmlns:expandable="clr-namespace:Expandable;assembly=ExpandableView"
           xmlns:local="clr-namespace:EUGamesApp.Views">
 
     <StackLayout VerticalOptions="FillAndExpand" HeightRequest="{Binding count, FallbackValue=100}" MinimumHeightRequest="{Binding count, FallbackValue=100}" Spacing="0">

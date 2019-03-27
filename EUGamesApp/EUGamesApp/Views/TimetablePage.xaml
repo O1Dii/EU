@@ -7,7 +7,7 @@
              Title="{Binding Title}">
     <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
         <StackLayout VerticalOptions="FillAndExpand" Spacing="0">
-            <StackLayout HeightRequest="162">
+            <StackLayout HeightRequest="161">
                 <ListView
                           HasUnevenRows="True"
                           IsPullToRefreshEnabled="False"
@@ -21,8 +21,8 @@
                     </ListView.ItemTemplate>
                 </ListView>
             </StackLayout>
-            <StackLayout>
-                <ListView x:Name="EventsList"
+            <StackLayout x:Name="EventsList">
+                <ListView
                           HasUnevenRows="True"
                           IsPullToRefreshEnabled="False"
                           IsRefreshing="{Binding IsBusy, Mode=OneWay}"

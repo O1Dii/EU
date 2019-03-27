@@ -355,5 +355,10 @@
         //{
         //    base.OnAppearing();
         //}
+
+        public int getTabbarSize()
+        {
+            return (int)(Models.Screen.HeightPrixels - GoogleMap.MinimumHeightRequest);
+        }
     }
 }
