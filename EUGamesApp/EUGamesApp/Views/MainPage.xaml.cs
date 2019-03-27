@@ -77,11 +77,10 @@ namespace EUGamesApp.Views
             temp = 1;
             _1 = new Tabs() { Icon = "Places.png" };
             _1.Appearing += ColorChange_1;
-            Screen.TabSizePixels = _1.getTabbarSize();
-            Screen.TabSize = (int)(Screen.TabSizePixels / Screen.Density);
+            _2 = new MapPage() { Icon = "Map.png" };
             _3 = new MenuPage() { Icon = "Menu.png" };
             _3.Appearing += ColorChange_3;
-            _2 = new MapPage() { Icon = "Map.png" };
+
 
             _2.Appearing += ColorChange_2;
             Tabs.Children.Add(_1);

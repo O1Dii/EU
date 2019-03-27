@@ -23,11 +23,6 @@ namespace EUGamesApp.Views
             BarTextColor = Color.FromHex("#390f5c");
         }
 
-        public int getTabbarSize()
-        {
-            return (int)200;
-        }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();

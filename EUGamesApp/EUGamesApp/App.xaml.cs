@@ -14,6 +14,13 @@ namespace EUGamesApp
             get;
             set;
         }
+
+        public static Page TimetablePage
+        {
+            get;
+            set;
+        }
+
         public App()
         {
             InitializeComponent();

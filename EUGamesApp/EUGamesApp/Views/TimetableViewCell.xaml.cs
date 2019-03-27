@@ -13,7 +13,7 @@ namespace EUGamesApp.Views
 {
 	public partial class TimetableViewCell : ViewCell
 	{
-        private int currentExtended;
+        private static ExpandableView currentExtended;
 
         public TimetableViewCell()
         {
@@ -39,13 +39,18 @@ namespace EUGamesApp.Views
             {
                 case ExpandStatus.Collapsing:
                     rotation = 0;
+                    currentExtended = null;
+                    (App.TimetablePage as TimetablePage).ChangeSize(0.0);
                     break;
                 case ExpandStatus.Expanding:
                     rotation = 180;
-                    //var cur = sender as ExpandableView;
-                    //var list = cur.Parent as ListView;
-                    //var curExt = list.GetChildElements(new Point(currentExtended, 0)) as ExpandableView;
-                    //curExt.StatusChanged -= OnStatusChanged;
+                    var cur = sender as ExpandableView;
+                    if (currentExtended != null)
+                    {
+                        currentExtended.IsExpanded = false;
+                    }
+                    currentExtended = cur;
+                    (App.TimetablePage as TimetablePage).ChangeSize(cur.SecondaryView.Height);
                     break;
                 default:
                     return;

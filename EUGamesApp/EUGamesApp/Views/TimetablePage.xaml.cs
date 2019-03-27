@@ -28,7 +28,23 @@ namespace EUGamesApp.Views
             InitializeComponent();
             model = new EventsViewModel();
             BindingContext = model;
-            
+            App.TimetablePage = this;
+            EventsList.HeightRequest = model.Items.Count * 81;
+            EventsList.MinimumHeightRequest = model.Items.Count * 81;
+        }
+
+        public void ChangeSize(double expanded)
+        {
+            if (expanded != 0)
+            {
+                EventsList.HeightRequest = model.Items.Count * 81 + expanded;
+                EventsList.MinimumHeightRequest = model.Items.Count * 81 + expanded;
+            }
+            else
+            {
+                EventsList.HeightRequest = model.Items.Count * 81;
+                EventsList.MinimumHeightRequest = model.Items.Count * 81;
+            }
         }
     }
 }
