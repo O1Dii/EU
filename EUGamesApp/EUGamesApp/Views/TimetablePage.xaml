@@ -6,19 +6,35 @@
              NavigationPage.HasBackButton="True"
              Title="{Binding Title}">
     <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
-        <StackLayout>
-            <ListView x:Name="EventsList"
-                      HasUnevenRows="True"
-                      IsPullToRefreshEnabled="False"
-                      IsRefreshing="{Binding IsBusy, Mode=OneWay}"
-                      ItemsSource="{Binding Items}"
-                      CachingStrategy="RecycleElementAndDataTemplate">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <local:TimetableViewCell/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+        <StackLayout VerticalOptions="FillAndExpand" Spacing="0">
+            <StackLayout HeightRequest="162">
+                <ListView
+                          HasUnevenRows="True"
+                          IsPullToRefreshEnabled="False"
+                          IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                          ItemsSource="{Binding NonExpandableItems}"
+                          CachingStrategy="RecycleElementAndDataTemplate">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <local:TimetableNonExpandableViewCell/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout>
+                <ListView x:Name="EventsList"
+                          HasUnevenRows="True"
+                          IsPullToRefreshEnabled="False"
+                          IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                          ItemsSource="{Binding Items}"
+                          CachingStrategy="RecycleElementAndDataTemplate">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <local:TimetableViewCell/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
         </StackLayout>
     </ScrollView>
 </ContentPage>

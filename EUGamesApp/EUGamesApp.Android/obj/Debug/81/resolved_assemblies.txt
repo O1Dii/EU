@@ -102,4 +102,5 @@ D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\andr
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.Xml.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\ar\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\de\EUGamesApp.resources.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\ru\EUGamesApp.resources.dll

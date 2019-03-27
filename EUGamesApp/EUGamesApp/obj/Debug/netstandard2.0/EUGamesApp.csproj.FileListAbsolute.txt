@@ -33,3 +33,7 @@ D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\bin\Debug\netstandard2.0\
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.AppResources.ru.resources
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\ru\EUGamesApp.resources.dll
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.csprojAssemblyReference.cache
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\bin\Debug\netstandard2.0\de\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\EUGamesApp.AppResources.de.resources
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\de\EUGamesApp.resources.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\obj\Debug\netstandard2.0\Views\TimetableNonExpandableViewCell.xaml.g.cs

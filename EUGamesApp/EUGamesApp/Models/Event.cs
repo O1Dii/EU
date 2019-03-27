@@ -32,7 +32,7 @@ namespace EUGamesApp.Models
             { }
         }
 
-        public Event(string icon, string name, Place place, ObservableCollection<Date> date)
+        public Event(string icon, string name, Place place, ObservableCollection<Date> date = null)
         {
             this.icon = icon;
             this.name = name;
