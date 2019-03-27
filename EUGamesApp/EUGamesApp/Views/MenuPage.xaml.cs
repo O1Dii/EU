@@ -15,7 +15,6 @@ using System.Linq;
 
 namespace EUGamesApp.Views
 {
-
     public class CarouselViewCell : ViewCell
     {
         public CarouselViewCell()
@@ -59,6 +58,8 @@ namespace EUGamesApp.Views
         short Counter = 0;
         int SlidePosition = 0;
         public TimetablePage page;
+        public CarouselView cv;
+        public RelativeLayout rl;
 
         //        MainPage RootPage { get => Application.Current.MainPage as MainPage; }
         //        List<HomeMenuItem> menuItems;
@@ -77,8 +78,6 @@ namespace EUGamesApp.Views
 
         public MenuPage()
         {
-            InitializeComponent();
-
             imageList = new List<Image>();
             imageList.Add(new Image { Source = ImageSource.FromFile("First.jpg"), Aspect = Aspect.AspectFill, VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand });
             imageList.Add(new Image { Source = ImageSource.FromFile("Second.jpg"), Aspect = Aspect.AspectFill, VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand });
@@ -87,6 +86,13 @@ namespace EUGamesApp.Views
             //imageList.Add(new Image { Source = ImageSource.FromFile("Fifth.png"), Aspect = Aspect.AspectFill, VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand });
             //imageList.Add(new Image { Source = ImageSource.FromFile("Sixth.png"), Aspect = Aspect.AspectFill, VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand });
             imageList.Add(new Image { Source = ImageSource.FromFile("First.jpg"), Aspect = Aspect.AspectFill, VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand });
+
+            cv = new CarouselView
+            {
+                ItemsSource = imageList,
+                ItemTemplate = GetDataTemplate(),
+            };
+
             Label eventName = new Label()
             {
                 Margin = new Thickness(10, 0, 10, 0),
@@ -96,12 +102,6 @@ namespace EUGamesApp.Views
                 FontFamily = Device.RuntimePlatform == Device.Android ? "Montserrat-SemiBold.ttf#Montserrat-SemiBold" :
                 Device.RuntimePlatform == Device.iOS ? "Montserrat-SemiBold" : null,
                 FontAttributes = FontAttributes.Italic
-            };
-
-
-            CarouselView cv = new CarouselView {
-                ItemsSource = imageList,
-                ItemTemplate = GetDataTemplate(),
             };
 
             Device.StartTimer(TimeSpan.FromSeconds(1.5), () =>
@@ -121,10 +121,10 @@ namespace EUGamesApp.Views
 
 
 
-            mainGrid.RowDefinitions.Add(new RowDefinition() { Height = ( Screen.ScreenHeight - Screen.TabSize ) / 15 * 6 });
-            mainGrid.RowDefinitions.Add(new RowDefinition() { Height = ( Screen.ScreenHeight - Screen.TabSize ) / 15 * 7 });
-            mainGrid.RowDefinitions.Add(new RowDefinition() { Height = ( Screen.ScreenHeight - Screen.TabSize ) / 15 * 2 });
-            mainGrid.RowDefinitions.Add(new RowDefinition() { Height = Screen.TabSize });
+            //mainGrid.RowDefinitions.Add(new RowDefinition() { Height = ( Screen.ScreenHeight - Screen.TabSize ) / 15 * 6 });
+            //mainGrid.RowDefinitions.Add(new RowDefinition() { Height = ( Screen.ScreenHeight - Screen.TabSize ) / 15 * 7 });
+            //mainGrid.RowDefinitions.Add(new RowDefinition() { Height = ( Screen.ScreenHeight - Screen.TabSize ) / 15 * 2 });
+            //mainGrid.RowDefinitions.Add(new RowDefinition() { Height = Screen.TabSize });
             SKCanvasView canvasView = new SKCanvasView();
             SKCanvasView canvasReverse = new SKCanvasView();
             SKCanvasView canvasLower = new SKCanvasView();
@@ -140,10 +140,10 @@ namespace EUGamesApp.Views
             //    ItemTemplate = new DataTemplate(typeof(CarouselViewCell)),
             //};
 
-            _carousel.ItemsSource = new List<ImageSource>() {
-                    ImageSource.FromFile("euLogo.png"),
-                    ImageSource.FromFile("meme.jpg"),
-                    ImageSource.FromFile("euLogo.png")};
+            //_carousel.ItemsSource = new List<ImageSource>() {
+            //        ImageSource.FromFile("euLogo.png"),
+            //        ImageSource.FromFile("meme.jpg"),
+            //        ImageSource.FromFile("euLogo.png")};
 
             //Image[] mas = {
             //    new Image() { Source = new FileImageSource() { File = "euLogo.png" } },
@@ -156,14 +156,13 @@ namespace EUGamesApp.Views
             Grid centerGrid = new Grid() { Padding = new Thickness(5, 10, 5, 10), Margin = new Thickness(0, 0, 0, 0), HorizontalOptions = LayoutOptions.FillAndExpand };
             Grid lowerGrid = new Grid() { Padding = new Thickness(5, 10, 5, 5), HorizontalOptions = LayoutOptions.EndAndExpand };
             Image image = new Image() { VerticalOptions = LayoutOptions.FillAndExpand, Aspect=Aspect.AspectFill, Margin = new Thickness(0, 0, 0, 0), HorizontalOptions = LayoutOptions.FillAndExpand };
-            mainGrid.RowSpacing = 0;
             image.Source = new FileImageSource() { File = "euLogo.png" };
 
             canvasView.PaintSurface += OnCanvasViewPaintSurface;
             canvasReverse.PaintSurface += OnCanvasViewPaintSurfaceOpposite;
             canvasLower.PaintSurface += OnCanvasViewPaintSurfaceLower;
 
-            RelativeLayout rl = new RelativeLayout()
+            rl = new RelativeLayout()
             {
                 BackgroundColor = Color.Red,
                 //HeightRequest = 120,
@@ -172,22 +171,24 @@ namespace EUGamesApp.Views
             };
             rl.Children.Add(cv,
                 Constraint.Constant(0),
-                Constraint.Constant(0),
-                Constraint.RelativeToParent((mainGrid) => { return mainGrid.Width; }),
-                ////Constraint.Constant(70),
-                Constraint.RelativeToParent((mainGrid) => { return (Screen.ScreenHeight - Screen.TabSize) / 15 * 6; })
+                Constraint.Constant(0)
+                //Constraint.RelativeToParent((mainGrid) => { return mainGrid.Width; }),
+                //////Constraint.Constant(70),
+                //Constraint.RelativeToParent((mainGrid) => { return (Screen.ScreenHeight - Screen.TabSize) / 15 * 6; })
             );
-;           rl.Children.Add(canvasView,
+            rl.Children.Add(canvasView,
                 Constraint.Constant(0),
                 Constraint.Constant(0),
                 Constraint.RelativeToParent((mainGrid) => { return mainGrid.Width; }),
-                Constraint.RelativeToParent((mainGrid) => { return (Screen.ScreenHeight - Screen.TabSize ) / 15 * 6 ; })
+                Constraint.RelativeToParent((mainGrid) => { return mainGrid.Children[0].Height; })
             );
             rl.Children.Add(canvasReverse,
                 Constraint.Constant(0),
                 Constraint.Constant(0),
                 Constraint.RelativeToParent((mainGrid) => { return mainGrid.Width; }),
-                Constraint.RelativeToParent((mainGrid) => { return (Screen.ScreenHeight - Screen.TabSize) / 15 * 6; })
+                Constraint.RelativeToParent((mainGrid) => { return mainGrid.Children[0].Height; })
+            //Constraint.RelativeToParent((mainGrid) => { return mainGrid.Width; }),
+            //Constraint.RelativeToParent((mainGrid) => { return (Screen.ScreenHeight - Screen.TabSize) / 15 * 6; })
             );
             rl.Children.Add(eventName, 
                 Constraint.Constant(0),
@@ -218,6 +219,7 @@ namespace EUGamesApp.Views
                 await Navigation.PushModalAsync(new NavigationPage(new Settings()));
             }), 1, 0);
 
+            InitializeComponent();
             mainGrid.Children.Add(rl, 0, 0);
             mainGrid.Children.Add(centerGrid, 0, 1);
             mainGrid.Children.Add(canvasLower, 0, 2);
@@ -259,7 +261,7 @@ namespace EUGamesApp.Views
 
             using (SKPaint paint = new SKPaint())
             {
-                SKRect rect = new SKRect(0, (Screen.HeightPrixels - Screen.TabSizePixels) / 15 * 6 - 50, Screen.WidthPixels, (Screen.HeightPrixels - Screen.TabSizePixels) / 15 * 6);
+                SKRect rect = new SKRect(0, (float)(rl.Height * Screen.Density) - 50, Screen.WidthPixels, (float)(rl.Height * Screen.Density));
 
                 // Create linear gradient from upper-left to lower-right
                 paint.Shader = SKShader.CreateLinearGradient(

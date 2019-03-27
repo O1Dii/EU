@@ -30,7 +30,12 @@
                                     HorizontalOptions="CenterAndExpand"
                                     VerticalOptions="CenterAndExpand" Clicked="Settings_Clicked"/>
     </Grid>-->
-    <Grid x:Name="mainGrid" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0, 0, 0, 0" Margin="0, 0, 0, 0">
+    <Grid x:Name="mainGrid" VerticalOptions="FillAndExpand" RowSpacing="0" HorizontalOptions="FillAndExpand" Padding="0, 0, 0, 0" Margin="0, 0, 0, 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
         <!--<CarouselView x:Name="MainCarouselView">
             <CarouselView.ItemTemplate>
                 <DataTemplate>
@@ -48,7 +53,7 @@
             </CarouselView.ItemTemplate>
         </CarouselView>-->
 
-        <ContentView x:Name="CV" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <!--<ContentView x:Name="CV" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <StackLayout>
                 <CarouselView x:Name="_carousel">
                     <CarouselView.ItemTemplate>
@@ -58,8 +63,7 @@
                     </CarouselView.ItemTemplate>
                 </CarouselView>
             </StackLayout>
-
-        </ContentView>
+        </ContentView>-->
 
 
         <!--<skia:SKCanvasView x:Name="canvasView"

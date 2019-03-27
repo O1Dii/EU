@@ -200,6 +200,8 @@ D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\andr
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp\bin\Debug\netstandard2.0\EUGamesApp.dll
+D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\bin\Debug\EUGamesApp.dll.mdb
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\EUGamesApp.dll.mdb
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\Plugin.Multilingual.Abstractions.dll.mdb
 D:\Учёба\Xamarin\EUGamesApp\EUGamesApp\EUGamesApp.Android\obj\Debug\81\linksrc\Plugin.Multilingual.dll.mdb
