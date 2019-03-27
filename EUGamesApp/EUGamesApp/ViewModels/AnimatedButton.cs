@@ -136,7 +136,7 @@ namespace EUGamesApp.ViewModels
                 AnimatedButton.tempList = (new NearPlacesViewModel()).Items;
             }
             var currentListItem = tempList[counter];
-            counter++;
+            if(counter < tempList.Count) counter++;
             double distDouble = Math.Sqrt(Math.Pow((currentListItem.x - MapPage.lastKnownLocation.Latitude), 2) + Math.Pow((currentListItem.y - MapPage.lastKnownLocation.Longitude), 2));
             //string distance = distDouble.ToString();
             string distance = "";

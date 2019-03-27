@@ -24,16 +24,17 @@
     public partial class MapPage : ContentPage, INotifyPropertyChanged
     {
         private RelativeLayout _layout;
-        private AnimatedButton btn;
         private Xamarin.Forms.GoogleMaps.Map GoogleMap;
         private StackLayout map_layout;
         public static Plugin.Geolocator.Abstractions.Position lastKnownLocation;
+
         private Plugin.Geolocator.Abstractions.IGeolocator geolocator;
         private Circle circle;
         private bool customPoint;
         public static bool isMainPlacesTurnedOn;
         private Dictionary<string, List<Pin>> points;
-        public static List<Pin> nearbyPins { get; set; } 
+        public static List<Pin> nearbyPins { get; set; }
+
         private double averageManSpeed; //meters per minute
 
         private double defaultZoom;
@@ -43,16 +44,19 @@
         //    nearbyPins = new List<Pin>();
         //    return
         //}
+        static MapPage()
+        {
+            //isMainPlacesTurnedOn = true;
+            nearbyPins = new List<Pin>();
+            lastKnownLocation = new Plugin.Geolocator.Abstractions.Position(53.9017156, 27.5561379);
+        }
 
         public MapPage()
         {
-            isMainPlacesTurnedOn = true;
             averageManSpeed = 84;
             customPoint = false;
             defaultZoom = 40;
-            nearbyPins = new List<Pin>();
             points = new Dictionary<string, List<Pin>>();
-            lastKnownLocation = new Plugin.Geolocator.Abstractions.Position(53.9017156, 27.5561379);
             // create the layout
             _layout = new RelativeLayout
             {
@@ -71,19 +75,27 @@
             GoogleMap.UiSettings.MapToolbarEnabled = true;
             GoogleMap.UiSettings.MyLocationButtonEnabled = true;
 
-            Device.StartTimer(TimeSpan.FromSeconds(3), () =>
+
+            Device.StartTimer(TimeSpan.FromSeconds(15), () =>
             {
-                getLocation();
-                GoogleMap.Circles.Clear();
-                if (Setting.radius != 0 && Setting.radius != 40) {
-                    circle = new Circle()
+                var mainPage = App.getMainPage() as MainPage;
+                if (mainPage != null && mainPage.CurrentPage == this)
+                {
+                    getLocation();
+                    GoogleMap.Circles.Clear();
+                    if (Setting.radius != 0 && Setting.radius != 40)
                     {
-                        Center = new Position(lastKnownLocation.Latitude, lastKnownLocation.Longitude),
-                        Radius = Distance.FromMeters(Setting.radius * averageManSpeed),
-                        FillColor = Color.FromHex("#50758191"),
-                    };
-                    GoogleMap.Circles.Add(circle);
-                    //reCalculatePins();
+                        
+                        //animation.Commit(circle, "Animation", 16, 2000, Easing.Linear, (v, c) => circle.Center = new Position(lastKnownLocation.Latitude, lastKnownLocation.Longitude), () => false);
+                        circle = new Circle()
+                        {
+                            Center = new Position(lastKnownLocation.Latitude, lastKnownLocation.Longitude),
+                            Radius = Distance.FromMeters(Setting.radius * averageManSpeed),
+                            FillColor = Color.FromHex("#50758191"),
+                        };
+                        GoogleMap.Circles.Add(circle);
+                        reCalculatePins();
+                    }
                 }
                 return true;
             });
@@ -138,9 +150,9 @@
 
             GoogleMap.InfoWindowClicked += PinClicked;
 
-            var info = new EventsViewModel();
+            
             points.Add("MainPlaces", new List<Pin>(
-                info.places.Select(
+                EventsViewModel.places.Select(
                     x => new Pin()
                     {
                         Type = PinType.Place,
@@ -148,28 +160,25 @@
                         Label = x.name,
                         Address = x.address,
                         ZIndex = 10,
-                        //Icon = new BitmapDescriptor( new Image() { Source = ImageSource.FromFile("mainPlaces.png") }.Source)
+                        IsVisible = false,
                     }
                     )).ToList()
             );
 
-            //for (int i = 0; i < points["MainPlaces"].Count; i++)
-            //{
-            //    points["MainPlaces"][i]
-            //}
-
             points.Add("TempPlaces", new List<Pin>(
-                info.tempPlaces.Select(
+                EventsViewModel.tempPlaces.Select(
                     x => new Pin()
                     {
                         Type = PinType.Place,
                         Position = new Position(x.x, x.y),
                         Label = x.name,
                         Address = x.address,
-                        ZIndex = 1
+                        ZIndex = 1,
+                        IsVisible = false,
                     }
                     )).ToList()
             );
+
             points.Add("DebugPlaces", new List<Pin>(){
                 new Pin() {
                     Type = PinType.Place,
@@ -177,6 +186,7 @@
                     Label = "1",
                     Address = "1",
                     ZIndex = 10,
+                    IsVisible = false,
                 },
                 new Pin() {
                     Type = PinType.Place,
@@ -184,6 +194,7 @@
                     Label = "1",
                     Address = "1",
                     ZIndex = 10,
+                    IsVisible = false,
                 }
             });
             //addPins(points["DebugPlaces"]);
@@ -197,42 +208,87 @@
             
             CreateMap();
             this.Content = _layout;
+            addPins();
         }
 
         public void reCalculatePins()
         {
+            points["MainPlaces"].ForEach(x => x.IsVisible = isMainPlacesTurnedOn);
             if (Setting.radius == 40)
             {
-                addPins(true, isMainPlacesTurnedOn ? points["MainPlaces"] : null);
+                addPins(true);
             }
             else if (Setting.radius != 0)
             {
                 getLocation();
                 double distance;
                 double radiusToShow = Setting.radius * averageManSpeed;
-                foreach (var title in points.Keys)
+                foreach (var title in isMainPlacesTurnedOn ? points.Keys.Skip(1) : points.Keys)
                 {
-                    for (int i = 0; i < points[title].Count; i++)
-                    {
-                        distance = Location.CalculateDistance(points[title].ElementAt(i).Position.Latitude, points[title].ElementAt(i).Position.Longitude,
-                            lastKnownLocation.Latitude, lastKnownLocation.Longitude, DistanceUnits.Kilometers) * 1000;
-                        points[title][i].IsVisible = distance <= radiusToShow ? true : false;
-                    }
+                    points[title].ForEach(
+                        x => {
+                            distance = Location.CalculateDistance(x.Position.Latitude, x.Position.Longitude,
+                         lastKnownLocation.Latitude, lastKnownLocation.Longitude, DistanceUnits.Kilometers) * 1000;
+                            x.IsVisible = distance <= radiusToShow ? true : false;
+                        }
+                        );
                 }
-                addPins(false, isMainPlacesTurnedOn ? points["MainPlaces"] : null);
+                addPins();
             }
             else
             {
-                GoogleMap.Pins.Clear();
                 if(isMainPlacesTurnedOn) {
-                    addPins(false, points["MainPlaces"]);
-                }
-                else
-                {
-                    addPins(false);
+                    addPins();
                 }
             }
         }
+
+        public void addPins(bool all = false, List<Pin> listToAdd = null)
+        {
+            GoogleMap.Pins.Clear();
+            nearbyPins.Clear();
+            if (listToAdd != null)
+            {
+                foreach (var elem in listToAdd)
+                {
+                    elem.IsVisible = true;
+                    GoogleMap.Pins.Add(elem);
+                    nearbyPins.Add(elem);
+                }
+            }
+            if (Setting.radius != 0)
+            {
+                if (all)
+                {
+                    foreach (var elemD in points.Values)
+                    {
+                        foreach (var item in elemD)
+                        {
+                            item.IsVisible = true;        
+                            GoogleMap.Pins.Add(item);
+                            nearbyPins.Add(item);
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (var elemD in points.Values)
+                    {
+                        foreach (var item in elemD.Where(x => x.IsVisible))
+                        {
+                            GoogleMap.Pins.Add(item);
+                            nearbyPins.Add(item);
+                        }
+                    }
+                }
+            }
+            else if(isMainPlacesTurnedOn)
+            {
+                points["MainPlaces"].ForEach(GoogleMap.Pins.Add);
+                points["MainPlaces"].ForEach(nearbyPins.Add);
+            }
+        }
+
 
         private async void getLocation()
         {
@@ -294,44 +350,10 @@
             }
         }
 
-        public void addPins(bool all = false, List<Pin> listToAdd = null)
-        {
-            GoogleMap.Pins.Clear();
-            if (nearbyPins.Count != 0)
-            {
-                nearbyPins.Clear();
-            }
-            if (listToAdd != null)
-            {
-                foreach (var elem in listToAdd)
-                {
-                    elem.IsVisible = true;
-                    GoogleMap.Pins.Add(elem);
-                    nearbyPins.Add(elem);
-                }
-            }
-            if (Setting.radius != 0) {
-                foreach (var elemD in points.Values)
-                {
-                    foreach (var item in elemD)
-                    {
-                        if (all)
-                        {
-                            item.IsVisible = true;
-                        }
-                        GoogleMap.Pins.Add(item);
-                        nearbyPins.Add(item);
-                    }
-                }
-            }
-        }
 
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
-            reCalculatePins();
-        }
-        // где левая менюшка? !!!!!!!!!! УВИДЬ ПОСЛАНИЕ
+        //protected override void OnAppearing()
+        //{
+        //    base.OnAppearing();
+        //}
     }
 }

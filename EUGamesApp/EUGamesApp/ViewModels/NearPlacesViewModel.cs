@@ -14,7 +14,7 @@ namespace EUGamesApp.ViewModels
             get
             {
                 ObservableCollection<NearPlace> temp = new ObservableCollection<NearPlace>();
-                var temp_1 = new EventsViewModel().tempPlaces;
+                var temp_1 = EventsViewModel.tempPlaces;
                 foreach (Xamarin.Forms.GoogleMaps.Pin item in MapPage.nearbyPins)
                 {
                     //if (Math.Sqrt(Math.Pow((item.Position.Latitude - MapPage.lastKnownLocation.Latitude), 2) + Math.Pow((item.Position.Longitude - MapPage.lastKnownLocation.Longitude), 2)) < Math.Pow(Setting.radius, 2))

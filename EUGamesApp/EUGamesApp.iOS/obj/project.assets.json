@@ -11,7 +11,7 @@
           "lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll": {}
         }
       },
-      "ExpandableView/1.0.3": {
+      "ExpandableView/1.0.5": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
@@ -159,11 +159,14 @@
           "build/Xamarin.Build.Download.targets": {}
         }
       },
-      "Xamarin.Essentials/1.0.1": {
+      "Xamarin.Essentials/1.1.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
         "compile": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         },
@@ -171,7 +174,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.220655": {
+      "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -308,7 +311,7 @@
           "lib/xamarinios10/Xamarin.Forms.Daddoon.iOS.IconTabbedPage.dll": {}
         }
       },
-      "Xamarin.Forms.GoogleMaps/3.0.4": {
+      "Xamarin.Forms.GoogleMaps/3.1.0": {
         "type": "package",
         "dependencies": {
           "Xamarin.Google.iOS.Maps": "2.5.0"
@@ -322,10 +325,10 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -435,7 +438,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ExpandableView": "1.0.3",
+          "ExpandableView": "1.0.5",
           "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
@@ -444,11 +447,11 @@
           "SuaveControls.FloatingActionButton": "2018.1.5",
           "XLabs.Forms": "2.0.5782",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms-IconTabbedPage": "1.0.4",
-          "Xamarin.Forms.GoogleMaps": "3.0.4",
-          "Xamarin.Forms.Maps": "3.6.0.220655",
+          "Xamarin.Forms.GoogleMaps": "3.1.0",
+          "Xamarin.Forms.Maps": "3.6.0.264807",
           "Xamarin.Toolkit.Effects": "1.0.0"
         },
         "compile": {
@@ -469,7 +472,7 @@
           "lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll": {}
         }
       },
-      "ExpandableView/1.0.3": {
+      "ExpandableView/1.0.5": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
@@ -595,11 +598,14 @@
           "build/Xamarin.Build.Download.targets": {}
         }
       },
-      "Xamarin.Essentials/1.0.1": {
+      "Xamarin.Essentials/1.1.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
         "compile": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         },
@@ -607,7 +613,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.220655": {
+      "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -744,7 +750,7 @@
           "lib/xamarinios10/Xamarin.Forms.Daddoon.iOS.IconTabbedPage.dll": {}
         }
       },
-      "Xamarin.Forms.GoogleMaps/3.0.4": {
+      "Xamarin.Forms.GoogleMaps/3.1.0": {
         "type": "package",
         "dependencies": {
           "Xamarin.Google.iOS.Maps": "2.5.0"
@@ -758,10 +764,10 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -871,7 +877,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ExpandableView": "1.0.3",
+          "ExpandableView": "1.0.5",
           "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
@@ -880,11 +886,11 @@
           "SuaveControls.FloatingActionButton": "2018.1.5",
           "XLabs.Forms": "2.0.5782",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms-IconTabbedPage": "1.0.4",
-          "Xamarin.Forms.GoogleMaps": "3.0.4",
-          "Xamarin.Forms.Maps": "3.6.0.220655",
+          "Xamarin.Forms.GoogleMaps": "3.1.0",
+          "Xamarin.Forms.Maps": "3.6.0.264807",
           "Xamarin.Toolkit.Effects": "1.0.0"
         },
         "compile": {
@@ -905,7 +911,7 @@
           "lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll": {}
         }
       },
-      "ExpandableView/1.0.3": {
+      "ExpandableView/1.0.5": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
@@ -1034,11 +1040,14 @@
           "build/Xamarin.Build.Download.targets": {}
         }
       },
-      "Xamarin.Essentials/1.0.1": {
+      "Xamarin.Essentials/1.1.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
         "compile": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         },
@@ -1046,7 +1055,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.220655": {
+      "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1183,7 +1192,7 @@
           "lib/xamarinios10/Xamarin.Forms.Daddoon.iOS.IconTabbedPage.dll": {}
         }
       },
-      "Xamarin.Forms.GoogleMaps/3.0.4": {
+      "Xamarin.Forms.GoogleMaps/3.1.0": {
         "type": "package",
         "dependencies": {
           "Xamarin.Google.iOS.Maps": "2.5.0"
@@ -1197,10 +1206,10 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -1310,7 +1319,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ExpandableView": "1.0.3",
+          "ExpandableView": "1.0.5",
           "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
@@ -1319,11 +1328,11 @@
           "SuaveControls.FloatingActionButton": "2018.1.5",
           "XLabs.Forms": "2.0.5782",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms-IconTabbedPage": "1.0.4",
-          "Xamarin.Forms.GoogleMaps": "3.0.4",
-          "Xamarin.Forms.Maps": "3.6.0.220655",
+          "Xamarin.Forms.GoogleMaps": "3.1.0",
+          "Xamarin.Forms.Maps": "3.6.0.264807",
           "Xamarin.Toolkit.Effects": "1.0.0"
         },
         "compile": {
@@ -1344,7 +1353,7 @@
           "lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll": {}
         }
       },
-      "ExpandableView/1.0.3": {
+      "ExpandableView/1.0.5": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
@@ -1473,11 +1482,14 @@
           "build/Xamarin.Build.Download.targets": {}
         }
       },
-      "Xamarin.Essentials/1.0.1": {
+      "Xamarin.Essentials/1.1.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
         "compile": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         },
@@ -1485,7 +1497,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.220655": {
+      "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1622,7 +1634,7 @@
           "lib/xamarinios10/Xamarin.Forms.Daddoon.iOS.IconTabbedPage.dll": {}
         }
       },
-      "Xamarin.Forms.GoogleMaps/3.0.4": {
+      "Xamarin.Forms.GoogleMaps/3.1.0": {
         "type": "package",
         "dependencies": {
           "Xamarin.Google.iOS.Maps": "2.5.0"
@@ -1636,10 +1648,10 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.220655": {
+      "Xamarin.Forms.Maps/3.6.0.264807": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -1749,7 +1761,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ExpandableView": "1.0.3",
+          "ExpandableView": "1.0.5",
           "Plugin.Multilingual": "1.0.2",
           "Plugin.Toast": "2.1.1",
           "SkiaSharp": "1.68.0",
@@ -1758,11 +1770,11 @@
           "SuaveControls.FloatingActionButton": "2018.1.5",
           "XLabs.Forms": "2.0.5782",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms-IconTabbedPage": "1.0.4",
-          "Xamarin.Forms.GoogleMaps": "3.0.4",
-          "Xamarin.Forms.Maps": "3.6.0.220655",
+          "Xamarin.Forms.GoogleMaps": "3.1.0",
+          "Xamarin.Forms.Maps": "3.6.0.264807",
           "Xamarin.Toolkit.Effects": "1.0.0"
         },
         "compile": {
@@ -1787,14 +1799,14 @@
         "lib/portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/ExifLib.dll"
       ]
     },
-    "ExpandableView/1.0.3": {
-      "sha512": "VZonOweTkBwsTe2kKPJ4zIvIeB08JapsxJyKINit3obW6y6PXdECz+rRXWVH1c7e/akBBBL30e1zgG4/BmYxUQ==",
+    "ExpandableView/1.0.5": {
+      "sha512": "Fc4384Hm6oEzCBX8P4m15PlCPTnhAHo4x8qEvz6FxKPoS839Dc7CJ0ybCq1ebxSHDkLQ1zd2MKYbGNj7Gx7Otw==",
       "type": "package",
-      "path": "expandableview/1.0.3",
+      "path": "expandableview/1.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "expandableview.1.0.3.nupkg.sha512",
+        "expandableview.1.0.5.nupkg.sha512",
         "expandableview.nuspec",
         "lib/MonoAndroid10/ExpandableView.dll",
         "lib/Xamarin.iOS10/ExpandableView.dll",
@@ -2133,13 +2145,19 @@
         "xamarin.build.download.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.0.1": {
-      "sha512": "TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
+    "Xamarin.Essentials/1.1.0": {
+      "sha512": "AGismQb55pszEQ/ZIv9O1U2YyaF2gHdBdAUO79+biHf1s7AL2R++DIvmf7Z+wtfhZrB9wxhXAkOUuYHgpY6oTw==",
       "type": "package",
-      "path": "xamarin.essentials/1.0.1",
+      "path": "xamarin.essentials/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/monoandroid60/Xamarin.Essentials.dll",
+        "lib/monoandroid60/Xamarin.Essentials.pdb",
+        "lib/monoandroid60/Xamarin.Essentials.xml",
+        "lib/monoandroid70/Xamarin.Essentials.dll",
+        "lib/monoandroid70/Xamarin.Essentials.pdb",
+        "lib/monoandroid70/Xamarin.Essentials.xml",
         "lib/monoandroid71/Xamarin.Essentials.dll",
         "lib/monoandroid71/Xamarin.Essentials.pdb",
         "lib/monoandroid71/Xamarin.Essentials.xml",
@@ -2149,6 +2167,9 @@
         "lib/monoandroid81/Xamarin.Essentials.dll",
         "lib/monoandroid81/Xamarin.Essentials.pdb",
         "lib/monoandroid81/Xamarin.Essentials.xml",
+        "lib/monoandroid90/Xamarin.Essentials.dll",
+        "lib/monoandroid90/Xamarin.Essentials.pdb",
+        "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -2163,14 +2184,14 @@
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.0.1.nupkg.sha512",
+        "xamarin.essentials.1.1.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/3.6.0.220655": {
-      "sha512": "ltCTV5Tez9zTbg9f6UunegHPWRzfVHKGHeLOmXeJvNFEPwXrHDwjCcRqMqNISLRjzWxT1MuC9wgKdMoxGdBLqQ==",
+    "Xamarin.Forms/3.6.0.264807": {
+      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
       "type": "package",
-      "path": "xamarin.forms/3.6.0.220655",
+      "path": "xamarin.forms/3.6.0.264807",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2328,7 +2349,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.6.0.220655.nupkg.sha512",
+        "xamarin.forms.3.6.0.264807.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -2358,13 +2379,14 @@
         "xamarin.forms-icontabbedpage.nuspec"
       ]
     },
-    "Xamarin.Forms.GoogleMaps/3.0.4": {
-      "sha512": "G/IG8/DT1fQkd9/XUCY+3SUw9YOTdk18Z6DWqVddWKWIdVxJof0uCgVCo1EWHGowuvDIc7MKmtWRRDGCtK1P0w==",
+    "Xamarin.Forms.GoogleMaps/3.1.0": {
+      "sha512": "s7NzUS1RMHUdtj/ajzxd2oX2bZcGk1pmOflJ3EeXg/SBKcNQN00ZQXq6rpJ+wv+Yp08l/RmjOrX9AmcVbmzXyw==",
       "type": "package",
-      "path": "xamarin.forms.googlemaps/3.0.4",
+      "path": "xamarin.forms.googlemaps/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.txt",
         "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
         "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
         "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll",
@@ -2373,14 +2395,14 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
         "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.dll",
         "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
-        "xamarin.forms.googlemaps.3.0.4.nupkg.sha512",
+        "xamarin.forms.googlemaps.3.1.0.nupkg.sha512",
         "xamarin.forms.googlemaps.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.6.0.220655": {
-      "sha512": "U+mCCvyLpC039q34jecG3XJhO7XcoJDrMaD9ggPK9YGATDy4msvYPDe0SN51ifwpok0FGDJkv4lZqA1DzGgOUQ==",
+    "Xamarin.Forms.Maps/3.6.0.264807": {
+      "sha512": "azNZj9rx4YBj72+fnaF75pbSBMW+t0WrJPhom4K1ITlKEBD5SG8uHA1RKuB5Y2BvRB/akkyExtEfinnsWN0jHw==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.6.0.220655",
+      "path": "xamarin.forms.maps/3.6.0.264807",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2396,10 +2418,8 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.Design.dll",
         "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
         "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll",
         "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
         "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
         "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
@@ -2408,7 +2428,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.6.0.220655.nupkg.sha512",
+        "xamarin.forms.maps.3.6.0.264807.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -2568,7 +2588,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "EUGamesApp >= 1.0.0",
-      "ExpandableView >= 1.0.3",
+      "ExpandableView >= 1.0.5",
       "Plugin.Multilingual >= 1.0.2",
       "SkiaSharp >= 1.68.0",
       "SkiaSharp.Views >= 1.68.0",
@@ -2576,11 +2596,11 @@
       "SuaveControls.FloatingActionButton >= 2018.1.5",
       "XLabs.Forms >= 2.0.5782",
       "Xam.Plugin.Geolocator >= 4.5.0.6",
-      "Xamarin.Essentials >= 1.0.1",
-      "Xamarin.Forms >= 3.6.0.220655",
+      "Xamarin.Essentials >= 1.1.0",
+      "Xamarin.Forms >= 3.6.0.264807",
       "Xamarin.Forms-IconTabbedPage >= 1.0.4",
-      "Xamarin.Forms.GoogleMaps >= 3.0.4",
-      "Xamarin.Forms.Maps >= 3.6.0.220655",
+      "Xamarin.Forms.GoogleMaps >= 3.1.0",
+      "Xamarin.Forms.Maps >= 3.6.0.264807",
       "Xamarin.Toolkit.Effects >= 1.0.0"
     ]
   },
@@ -2623,7 +2643,7 @@
         "dependencies": {
           "ExpandableView": {
             "target": "Package",
-            "version": "[1.0.3, )"
+            "version": "[1.0.5, )"
           },
           "Plugin.Multilingual": {
             "target": "Package",
@@ -2655,11 +2675,11 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.1.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.220655, )"
+            "version": "[3.6.0.264807, )"
           },
           "Xamarin.Forms-IconTabbedPage": {
             "target": "Package",
@@ -2667,11 +2687,11 @@
           },
           "Xamarin.Forms.GoogleMaps": {
             "target": "Package",
-            "version": "[3.0.4, )"
+            "version": "[3.1.0, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[3.6.0.220655, )"
+            "version": "[3.6.0.264807, )"
           },
           "Xamarin.Toolkit.Effects": {
             "target": "Package",

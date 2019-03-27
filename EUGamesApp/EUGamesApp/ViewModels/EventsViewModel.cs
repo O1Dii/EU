@@ -12,8 +12,8 @@ namespace EUGamesApp.ViewModels
     {
         private List<string> eveNames;
         private List<string> icons;
-        public List<Place> places;
-        public List<Place> tempPlaces;
+        static public List<Place> places;
+        static public List<Place> tempPlaces;
         private ObservableCollection<Date> date { get; set; }
         private List<string> firstNames;
         private List<string> secNames;
@@ -21,10 +21,10 @@ namespace EUGamesApp.ViewModels
         private List<string> dates;
 
         public ObservableCollection<Event> Items { get; set; }
+        public ObservableCollection<Event> NonExpandableItems { get; set; }
 
         public EventsViewModel()
         {
-            Title = "Расписание";
             eveNames = new List<string> { "Церемония открытия", "Церемония закрытия", "Акробатика спортивная", "Аэробика спортивная", "Бадминтон", "Баскетбол 3х3", "Бокс", "Велосипедный спорт – трек", "Борьба", "Гимнастика спортивная", "Велосипедный спорт – шоссе", "Гимнастика художественная", "Гребля на байдарках и каноэ", "Дзюдо", "Каратэ", "Легкая атлетика", "Настольный теннис", "Пляжный футбол", "Прыжки на батуте", "Самбо", "Стрельба из лука", "Стрельба пулевая", "Стрельба стендова" };
             icons = new List<string> {
                 "Acrobatics.png",
@@ -138,9 +138,13 @@ namespace EUGamesApp.ViewModels
                 //new Date(dates[8], infoList)
             };
 
+            NonExpandableItems = new ObservableCollection<Event>()
+            {
+                new Event(icons[21], eveNames[0], places[1]),
+                new Event(icons[21], eveNames[1], places[1])
+            };
+
             Items = new ObservableCollection<Event>() {
-                new Event(icons[21], eveNames[0], places[1], date),
-                new Event(icons[21], eveNames[1], places[1], date),
                 new Event(icons[0], eveNames[2], places[5], date),
                 new Event(icons[1], eveNames[3], places[5], date),
                 new Event(icons[4], eveNames[4], places[4], date),
@@ -165,5 +169,10 @@ namespace EUGamesApp.ViewModels
             };
 
         }
+        //public EventsViewModel()
+        //{
+        //    Title = "Расписание";
+        //    // change all fields to static, thats for safety
+        //}
     }
-}
+}//nu esli nichego ne slomaetsa to ok 

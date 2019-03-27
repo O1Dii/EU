@@ -1626,6 +1626,108 @@ namespace EUGamesApp.Droid
 			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewStubCompat_android_id = global::EUGamesApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::EUGamesApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::SuaveControls.FloatingActionButton.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::EUGamesApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::EUGamesApp.Droid.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::EUGamesApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::EUGamesApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::EUGamesApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::EUGamesApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::EUGamesApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::EUGamesApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::EUGamesApp.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::EUGamesApp.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Boolean.abc_action_bar_embed_tabs = global::EUGamesApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::EUGamesApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::EUGamesApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::EUGamesApp.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::EUGamesApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::EUGamesApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::EUGamesApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::EUGamesApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::EUGamesApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::EUGamesApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::EUGamesApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::EUGamesApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::EUGamesApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::EUGamesApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::EUGamesApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::EUGamesApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::EUGamesApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::EUGamesApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::EUGamesApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::EUGamesApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::EUGamesApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::EUGamesApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::EUGamesApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::EUGamesApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::EUGamesApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::EUGamesApp.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::EUGamesApp.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::EUGamesApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::EUGamesApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::EUGamesApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::EUGamesApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::EUGamesApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::EUGamesApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::EUGamesApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::EUGamesApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::EUGamesApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::EUGamesApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::EUGamesApp.Droid.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::EUGamesApp.Droid.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::EUGamesApp.Droid.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::EUGamesApp.Droid.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.actions = global::EUGamesApp.Droid.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.async = global::EUGamesApp.Droid.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::EUGamesApp.Droid.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::EUGamesApp.Droid.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.forever = global::EUGamesApp.Droid.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::EUGamesApp.Droid.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::EUGamesApp.Droid.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::EUGamesApp.Droid.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::EUGamesApp.Droid.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::EUGamesApp.Droid.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::EUGamesApp.Droid.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.normal = global::EUGamesApp.Droid.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::EUGamesApp.Droid.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::EUGamesApp.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::EUGamesApp.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::EUGamesApp.Droid.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::EUGamesApp.Droid.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::EUGamesApp.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.text = global::EUGamesApp.Droid.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::EUGamesApp.Droid.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::EUGamesApp.Droid.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::EUGamesApp.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::EUGamesApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::EUGamesApp.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::EUGamesApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::EUGamesApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::EUGamesApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::EUGamesApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::EUGamesApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::EUGamesApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::EUGamesApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::EUGamesApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::EUGamesApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::EUGamesApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::EUGamesApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::EUGamesApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::EUGamesApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::EUGamesApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::EUGamesApp.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::EUGamesApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::EUGamesApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::EUGamesApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::EUGamesApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::EUGamesApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::EUGamesApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::EUGamesApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::EUGamesApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::EUGamesApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::EUGamesApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::EUGamesApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::EUGamesApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::EUGamesApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::EUGamesApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::EUGamesApp.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::EUGamesApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -7002,17 +7104,17 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
 			
-			// aapt resource value: 0x7F080018
-			public const int EnterFromLeft = 2131230744;
+			// aapt resource value: 0x7F090018
+			public const int EnterFromLeft = 2131296280;
 			
-			// aapt resource value: 0x7F080019
-			public const int EnterFromRight = 2131230745;
+			// aapt resource value: 0x7F090019
+			public const int EnterFromRight = 2131296281;
 			
-			// aapt resource value: 0x7F080020
-			public const int ExitToLeft = 2131230752;
+			// aapt resource value: 0x7F090020
+			public const int ExitToLeft = 2131296288;
 			
-			// aapt resource value: 0x7F080021
-			public const int ExitToRight = 2131230753;
+			// aapt resource value: 0x7F090021
+			public const int ExitToRight = 2131296289;
 			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
@@ -7299,8 +7401,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
-			// aapt resource value: 0x7F100376
-			public const int buttonSize = 2131755894;
+			// aapt resource value: 0x7F110376
+			public const int buttonSize = 2131821430;
 			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
@@ -7461,8 +7563,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
 			
-			// aapt resource value: 0x7F100375
-			public const int circleCrop = 2131755893;
+			// aapt resource value: 0x7F110375
+			public const int circleCrop = 2131821429;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -7512,8 +7614,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
-			// aapt resource value: 0x7F100377
-			public const int colorScheme = 2131755895;
+			// aapt resource value: 0x7F110377
+			public const int colorScheme = 2131821431;
 			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
@@ -7788,11 +7890,11 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
-			// aapt resource value: 0x7F100374
-			public const int imageAspectRatio = 2131755892;
+			// aapt resource value: 0x7F110374
+			public const int imageAspectRatio = 2131821428;
 			
-			// aapt resource value: 0x7F100373
-			public const int imageAspectRatioAdjust = 2131755891;
+			// aapt resource value: 0x7F110373
+			public const int imageAspectRatioAdjust = 2131821427;
 			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
@@ -8115,8 +8217,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F100378
-			public const int scopeUris = 2131755896;
+			// aapt resource value: 0x7F110378
+			public const int scopeUris = 2131821432;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -9270,20 +9372,20 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F08004A
 			public const int abc_text_size_title_material_toolbar = 2131230794;
 			
-			// aapt resource value: 0x7F110205
-			public const int calendar_day_headers_paddingbottom = 2131821061;
+			// aapt resource value: 0x7F120205
+			public const int calendar_day_headers_paddingbottom = 2131886597;
 			
-			// aapt resource value: 0x7F110207
-			public const int calendar_month_title_bottommargin = 2131821063;
+			// aapt resource value: 0x7F120207
+			public const int calendar_month_title_bottommargin = 2131886599;
 			
-			// aapt resource value: 0x7F110206
-			public const int calendar_month_topmargin = 2131821062;
+			// aapt resource value: 0x7F120206
+			public const int calendar_month_topmargin = 2131886598;
 			
-			// aapt resource value: 0x7F110208
-			public const int calendar_text_medium = 2131821064;
+			// aapt resource value: 0x7F120208
+			public const int calendar_text_medium = 2131886600;
 			
-			// aapt resource value: 0x7F110209
-			public const int calendar_text_small = 2131821065;
+			// aapt resource value: 0x7F120209
+			public const int calendar_text_small = 2131886601;
 			
 			// aapt resource value: 0x7F080001
 			public const int cardview_compat_inset_shadow = 2131230721;
@@ -12596,8 +12698,8 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
-			// aapt resource value: 0x7F090143
-			public const int ApplicationName = 2131296579;
+			// aapt resource value: 0x7F100143
+			public const int ApplicationName = 2131755331;
 			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
@@ -12725,83 +12827,83 @@ namespace EUGamesApp.Droid
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F090062
-			public const int common_google_play_services_enable_button = 2131296354;
+			// aapt resource value: 0x7F100062
+			public const int common_google_play_services_enable_button = 2131755106;
 			
-			// aapt resource value: 0x7F090063
-			public const int common_google_play_services_enable_text = 2131296355;
+			// aapt resource value: 0x7F100063
+			public const int common_google_play_services_enable_text = 2131755107;
 			
-			// aapt resource value: 0x7F090064
-			public const int common_google_play_services_enable_title = 2131296356;
+			// aapt resource value: 0x7F100064
+			public const int common_google_play_services_enable_title = 2131755108;
 			
-			// aapt resource value: 0x7F090065
-			public const int common_google_play_services_install_button = 2131296357;
+			// aapt resource value: 0x7F100065
+			public const int common_google_play_services_install_button = 2131755109;
 			
-			// aapt resource value: 0x7F090066
-			public const int common_google_play_services_install_text = 2131296358;
+			// aapt resource value: 0x7F100066
+			public const int common_google_play_services_install_text = 2131755110;
 			
-			// aapt resource value: 0x7F090067
-			public const int common_google_play_services_install_title = 2131296359;
+			// aapt resource value: 0x7F100067
+			public const int common_google_play_services_install_title = 2131755111;
 			
-			// aapt resource value: 0x7F090068
-			public const int common_google_play_services_notification_ticker = 2131296360;
+			// aapt resource value: 0x7F100068
+			public const int common_google_play_services_notification_ticker = 2131755112;
 			
 			// aapt resource value: 0x1
 			public const int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 0x7F090069
-			public const int common_google_play_services_unsupported_text = 2131296361;
+			// aapt resource value: 0x7F100069
+			public const int common_google_play_services_unsupported_text = 2131755113;
 			
-			// aapt resource value: 0x7F090070
-			public const int common_google_play_services_update_button = 2131296368;
+			// aapt resource value: 0x7F100070
+			public const int common_google_play_services_update_button = 2131755120;
 			
-			// aapt resource value: 0x7F090071
-			public const int common_google_play_services_update_text = 2131296369;
+			// aapt resource value: 0x7F100071
+			public const int common_google_play_services_update_text = 2131755121;
 			
-			// aapt resource value: 0x7F090072
-			public const int common_google_play_services_update_title = 2131296370;
+			// aapt resource value: 0x7F100072
+			public const int common_google_play_services_update_title = 2131755122;
 			
-			// aapt resource value: 0x7F090073
-			public const int common_google_play_services_updating_text = 2131296371;
+			// aapt resource value: 0x7F100073
+			public const int common_google_play_services_updating_text = 2131755123;
 			
-			// aapt resource value: 0x7F090074
-			public const int common_google_play_services_wear_update_text = 2131296372;
+			// aapt resource value: 0x7F100074
+			public const int common_google_play_services_wear_update_text = 2131755124;
 			
-			// aapt resource value: 0x7F090075
-			public const int common_open_on_phone = 2131296373;
+			// aapt resource value: 0x7F100075
+			public const int common_open_on_phone = 2131755125;
 			
-			// aapt resource value: 0x7F090076
-			public const int common_signin_button_text = 2131296374;
+			// aapt resource value: 0x7F100076
+			public const int common_signin_button_text = 2131755126;
 			
-			// aapt resource value: 0x7F090077
-			public const int common_signin_button_text_long = 2131296375;
+			// aapt resource value: 0x7F100077
+			public const int common_signin_button_text_long = 2131755127;
 			
-			// aapt resource value: 0x7F090138
-			public const int day_name_format = 2131296568;
+			// aapt resource value: 0x7F100138
+			public const int day_name_format = 2131755320;
 			
 			// aapt resource value: 0x1
 			public const int fcm_fallback_notification_channel_label = 1;
 			
-			// aapt resource value: 0x7F090141
-			public const int full_date_format = 2131296577;
+			// aapt resource value: 0x7F100141
+			public const int full_date_format = 2131755329;
 			
 			// aapt resource value: 0x1
 			public const int gcm_fallback_notification_channel_label = 1;
 			
-			// aapt resource value: 0x7F090142
-			public const int Hello = 2131296578;
+			// aapt resource value: 0x7F100142
+			public const int Hello = 2131755330;
 			
-			// aapt resource value: 0x7F090139
-			public const int invalid_date = 2131296569;
+			// aapt resource value: 0x7F100139
+			public const int invalid_date = 2131755321;
 			
-			// aapt resource value: 0x7F090137
-			public const int library_name = 2131296567;
+			// aapt resource value: 0x7F100137
+			public const int library_name = 2131755319;
 			
 			// aapt resource value: 0x1
 			public const int license_content_error = 1;
 			
-			// aapt resource value: 0x7F090140
-			public const int month_name_format = 2131296576;
+			// aapt resource value: 0x7F100140
+			public const int month_name_format = 2131755328;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -16880,6 +16982,22 @@ namespace EUGamesApp.Droid
 			}
 			
 			private Styleable()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F080002
+			public const int xamarin_essentials_fileprovider_file_paths = 2131230722;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}
